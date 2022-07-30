@@ -11,14 +11,14 @@ import {
     headerImage,
     watchme,
 } from "./header.module.css";
-import { headlinetext, subheadlinetext } from "../../resources/strings.js"
+import { headlineContent, subHeadlineContent } from "../../resources/strings.js"
 
 const Navbar = () => {
   return (
     <div className={header}>
       <div className={leftHeader}>
-        <text className={headline}>{headlinetext}</text>
-        <text className={subheadline}>{subheadlinetext}</text>
+        <text className={headline}>{headlineContent}</text>
+        <text className={subheadline}>{subHeadlineContent}</text>
         <button className={quoteButton}>GET A QUOTE</button>
         <StaticImage className={playButton} alt="Play Button for showreel" src="../../images/Watchme.svg" /> 
         <text className={watchme}>Watch Me</text>

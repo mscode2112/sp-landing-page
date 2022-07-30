@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../navigation/navbar";
 import Header from "../header/header";
 import CustomizedVideoSection from "../customizedVideoSection/customizedVideoSection";
+import Numbers from "../numbers/numbers"
 
 import {
   layout,
@@ -13,6 +14,7 @@ const Layout = ({ pageTitle, children }) => {
       <Navbar/>
       <main>
        <Header/>
+       <Numbers/>
        <CustomizedVideoSection/>
       </main>
     </div>

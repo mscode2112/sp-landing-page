@@ -22,83 +22,179 @@
 .icon1 {
     position: absolute;
     width: 104px;
-    height: 97.49px;
-    left: 146px;
+    height: 97px;
+    left: 220px;
     top: 155px;
 }
 
 .icon2 {
     position: absolute;
-    width: 97.21px;
+    width: 97px;
     height: 115px;
-    left: 372px;
+    left: 446px;
     top: 142px;
 }
 
 .icon3 {
     position: absolute;
     width: 123px;
-    height: 102.92px;
-    left: 573px;
-    top: 920.78px;
+    height: 102px;
+    left: 647px;
+    top: 150px;
 }
 
 .icon4 {
     position: absolute;
-    width: 102.91px;
-    height: 116.8px;
-    left: 146px;
-    top: 1115.01px;
+    width: 102px;
+    height: 116px;
+    left: 220px;
+    top: 340px;
 }
 
 .icon5 {
     position: absolute;
-    width: 105.28px;
-    height: 122.24px;
-    left: 373px;
-    top: 1109.22px;
+    width: 105px;
+    height: 122px;
+    left: 446px;
+    top: 340px;
 }
 
 .icon6 {
     position: absolute;
-    width: 101.26px;
-    height: 114.58px;
-    left: 591px;
-    top: 1116px;
+    width: 101px;
+    height: 114px;
+    left: 647px;
+    top: 340px;
 }
 
-.section2text {
+.icon1-caption {
     position: absolute;
-    width: 495px;
-    height: 300px;
-    left: 818px;
-    top: 931px;
+    display: flex;
+    width: 137px;
+    height: 22px;
+    left: 204px;
+    top: 274px;
+    font-family: 'Lato Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #EF5026;
 }
 
-.section2head {
+.icon2-caption {
+    position: absolute;
+    display: flex;
+    width: 137px;
+    height: 22px;
+    left: 446px;
+    top: 274px;
+    font-family: 'Lato Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #EF5026;
+}
+
+.icon3-caption {
+    position: absolute;
+    display: flex;
+    width: 137px;
+    height: 22px;
+    left: 647px;
+    top: 273px;
+    font-family: 'Lato Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #EF5026;
+}
+
+.icon4-caption {
+    position: absolute;
+    display: flex;
+    width: 137px;
+    height: 22px;
+    left: 202px;
+    top: 479px;
+    font-family: 'Lato Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #EF5026;
+}
+
+.icon5-caption {
+    position: absolute;
+    display: flex;
+    width: 156px;
+    height: 22px;
+    left: 426px;
+    top: 479px;
+    font-family: 'Lato Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #EF5026;
+}
+
+.icon6-caption {
+    position: absolute;
+    display: flex;
+    width: 159px;
+    height: 22px;
+    left: 639px;
+    top: 479px;
+    font-family: 'Lato Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #EF5026;
+}
+
+.section2-text {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section2-text-head {
     position: absolute;
     display: flex;
     width: 495px;
     height: 80px;
-    left: 818px;
-    top: 931px;
+    left: 964px;
+    top: 170px;
     
     font-family: 'Coda', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 38px;
     line-height: 40px;
-        /* or 105% */
     letter-spacing: -0.5px;
     color: #EF5026;
 }
 
-.section2sub {
+.section2-text-sub {
     position: absolute;
     width: 449.83px;
     height: 198px;
-    left: 818px;
-    top: 1033px;
+    left: 964px;
+    top: 285px;
     
     font-family: 'Lato Regular', sans-serif;
     font-style: normal;
