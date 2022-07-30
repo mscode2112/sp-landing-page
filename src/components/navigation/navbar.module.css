@@ -30,14 +30,14 @@
     flex: 30%;
     display: flex;
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 150px;
 }
 
 .logo {
     position: absolute;
     width: 200px;
     height: 44.05px;
-    left: 70px;
+    left: 100px;
     top: 15px;
 }
 
@@ -53,7 +53,6 @@
     height: 35px;
     left: 0px;
     top: 0px;
-    gap: 20px;
     border: 1.5px solid #EF5026;
     background-color: white;
     color: #EF5026;

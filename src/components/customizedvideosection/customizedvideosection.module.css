@@ -1,0 +1,112 @@
+.rectangle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 540px;
+    left: 0px;
+    top: 774px;
+    background: #FFD5C1;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon1 {
+    position: absolute;
+    width: 104px;
+    height: 97.49px;
+    left: 146px;
+    top: 155px;
+}
+
+.icon2 {
+    position: absolute;
+    width: 97.21px;
+    height: 115px;
+    left: 372px;
+    top: 142px;
+}
+
+.icon3 {
+    position: absolute;
+    width: 123px;
+    height: 102.92px;
+    left: 573px;
+    top: 920.78px;
+}
+
+.icon4 {
+    position: absolute;
+    width: 102.91px;
+    height: 116.8px;
+    left: 146px;
+    top: 1115.01px;
+}
+
+.icon5 {
+    position: absolute;
+    width: 105.28px;
+    height: 122.24px;
+    left: 373px;
+    top: 1109.22px;
+}
+
+.icon6 {
+    position: absolute;
+    width: 101.26px;
+    height: 114.58px;
+    left: 591px;
+    top: 1116px;
+}
+
+.section2text {
+    position: absolute;
+    width: 495px;
+    height: 300px;
+    left: 818px;
+    top: 931px;
+}
+
+.section2head {
+    position: absolute;
+    display: flex;
+    width: 495px;
+    height: 80px;
+    left: 818px;
+    top: 931px;
+    
+    font-family: 'Coda', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 40px;
+        /* or 105% */
+    letter-spacing: -0.5px;
+    color: #EF5026;
+}
+
+.section2sub {
+    position: absolute;
+    width: 449.83px;
+    height: 198px;
+    left: 818px;
+    top: 1033px;
+    
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    
+    /* systemGrey/600 */
+    color: #757575;
+}

@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "../navigation/navbar";
+import Header from "../header/header";
+import CustomizedVideoSection from "../customizedVideoSection/customizedVideoSection";
 
 import {
   layout,
-  heading
 } from "./layout.module.css";
 
 const Layout = ({ pageTitle, children }) => {
@@ -11,8 +12,9 @@ const Layout = ({ pageTitle, children }) => {
     <div className={layout}>
       <Navbar/>
       <main>
-        <h1 className={heading}>{pageTitle}</h1>
-        {children} </main>
+       <Header/>
+       <CustomizedVideoSection/>
+      </main>
     </div>
   );
 };
