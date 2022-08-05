@@ -2,7 +2,6 @@ import React from "react";
 import {
     mainFooter,
     bottomBox,
-    requestForm,
     line,
     copyrightText,
     footerHeadText,
@@ -19,14 +18,14 @@ import {
     linkedinIcon,
     youtubeIcon,
 } from "./footer.module.css"
-
+import { ContactForm } from "./contactForm"
 import { footerHeading, footerContent } from "../../resources/strings"
 
 const Footer = () => {
   return (
     <div className={mainFooter}>
       <div className={bottomBox}></div>
-      <div className={requestForm}></div>
+      <ContactForm/>
       <div className={line}></div>
       <text className={footerHeadText}>{footerHeading}</text>
       <text className={footerSubText}>{footerContent}</text>

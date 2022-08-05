@@ -15,7 +15,7 @@ import {
   layout,
 } from "./layout.module.css";
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = () => {
   return (
     <div className={layout}>
       <Navbar/>
