@@ -15,9 +15,8 @@ import {
     icon4Caption,
     icon5Caption,
     icon6Caption,
-    section2Text,
     section2TextHead,
-    section2TextSub
+    section2TextSub,
 } from "./customizedvideosection.module.css";
 import { section2HeadContent, section2SubContent } from "../../resources/strings.js"
 
@@ -38,7 +37,7 @@ const CustomizedVideoSection = () => {
             <text className={icon5Caption}>Educational Videos</text>
             <text className={icon6Caption}>Whiteboard Videos</text>
         </div>
-        <div className={section2Text}>
+        <div>
             <text className={section2TextHead}>{section2HeadContent}</text>
             <text className={section2TextSub}>{section2SubContent}</text>
         </div>

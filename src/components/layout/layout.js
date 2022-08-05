@@ -5,6 +5,11 @@ import CustomizedVideoSection from "../customizedVideoSection/customizedVideoSec
 import Numbers from "../numbers/numbers"
 import Portfolio from "../portfolio/portfolio";
 import Process from "../process/process";
+import BestInvestment from "../bestInvestment/bestInvestment";
+import Clients from "../clients/clients";
+import Testimonials from "../testimonials/testimonials";
+import Footer from "../footer/footer";
+import Faqs from "../faqs/faqs";
 
 import {
   layout,
@@ -20,6 +25,11 @@ const Layout = ({ pageTitle, children }) => {
        <CustomizedVideoSection/>
        <Portfolio/>
        <Process/>
+       <BestInvestment/>
+       <Clients/>
+       <Testimonials/>
+       <Faqs/>
+       <Footer/>
       </main>
     </div>
   );

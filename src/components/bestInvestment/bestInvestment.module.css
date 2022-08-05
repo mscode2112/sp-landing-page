@@ -1,3 +1,75 @@
 .rectangle {
-    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 475px;
+    left: 0px;
+    top: 4052px;
+    background: #FFD5C1;
+}
+
+.section-image {
+    position: absolute;
+    width: 600px;
+    height: 405px;
+    left: 178px;
+    top: 18px;
+}
+
+.section-text-head-part1 {
+    position: absolute;
+    display: flex;
+    width: 568px;
+    height: 80px;
+    left: 964px;
+    top: 80px;
+
+    font-family: 'Coda', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+
+    color: #253139;
+}
+
+.section-text-head-part2 {
+    position: absolute;
+    display: flex;
+    width: 568px;
+    height: 80px;
+    left: 1028px;
+    top: 121px;
+
+    font-family: 'Coda', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+
+    color: #EF5026;
+}
+
+.section-text-sub {
+    position: absolute;
+    width: 478px;
+    height: 220px;
+    left: 964px;
+    top: 200px;
+
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+
+    color: #757575;
+    white-space: pre-line;
 }

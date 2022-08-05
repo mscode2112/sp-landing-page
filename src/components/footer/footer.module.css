@@ -1,0 +1,221 @@
+.main-footer {
+    position: absolute;
+    width: 100%;
+    height: 780px;
+    left: 0px;
+    top: 5911px;
+
+    background: #EF5026;
+}
+
+.bottom-box {
+    position: absolute;
+    width: 100%;
+    height: 287px;
+    left: 0px;
+    top: 493px;
+
+    background: #FFD5C1;
+}
+
+.request-form {
+    position: absolute;
+    width: 548px;
+    height: 570px;
+    left: 1044px;
+    top: 53px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.35);
+}
+
+.line {
+    position: absolute;
+    width: 1500px;
+    height: 0px;
+    left: 165px;
+    top: 741px;
+
+    border: 1px solid #EF5026;
+}
+
+.footer-head-text {
+    position: absolute;
+    width: 408px;
+    height: 40px;
+    left: 289px;
+    top: 91px;
+
+    font-family: 'Coda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    white-space: pre-line;
+
+    color: #FFFFFF;
+}
+
+.footer-sub-text {
+    position: absolute;
+    width: 313px;
+    height: 280px;
+    left: 289px;
+    top: 179px;
+
+    font-family: 'Coda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    white-space: pre-line;
+
+    color: #FFFFFF;
+}
+
+.text-separator {
+    position: absolute;
+    width: 36px;
+    height: 0px;
+    left: 289px;
+    top: 150px;
+    border: 1px solid #FFFFFF;
+}
+
+.copyright-text {
+    position: absolute;
+    width: 198px;
+    height: 17px;
+    left: 812px;
+    top: 752px;
+
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.phone-icon {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 275px;
+    top: 531px;
+
+    background: url(../../images/whatsapp\ icon.svg);
+}
+
+.mail-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 275px;
+    top: 602px;
+
+    background: url(../../images/mail\ icon.svg);
+}
+
+.location-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 275px;
+    top: 673px;
+
+    background: url(../../images/location\ icon.svg);
+}
+
+.phone-text {
+    position: absolute;
+    width: 138px;
+    height: 22px;
+    left: 320px;
+    top: 537px;
+
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #253139;
+}
+
+.mail-text {
+    position: absolute;
+    width: 169px;
+    height: 22px;
+    left: 320px;
+    top: 611px;
+
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #253139;
+}
+
+.location-text {
+    position: absolute;
+    width: 166px;
+    height: 22px;
+    left: 320px;
+    top: 680px;
+
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #253139;
+}
+
+.facebook-icon {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 1195px;
+    top: 680px;
+
+    background: url("../../images/facebook\ icon.svg");
+}
+
+.instagram-icon {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 1265px;
+    top: 680px;
+
+    background: url("../../images/instagram\ icon.svg");
+}
+
+.linkedin-icon {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 1335px;
+    top: 680px;
+
+    background: url("../../images/linkedin\ icon.svg");
+}
+
+.youtube-icon {
+    position: absolute;
+    width: 37.71px;
+    height: 37.71px;
+    left: 1405px;
+    top: 682px;
+
+    background: url("../../images/youtube\ icon.svg");
+}
