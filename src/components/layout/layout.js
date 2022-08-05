@@ -3,6 +3,8 @@ import Navbar from "../navigation/navbar";
 import Header from "../header/header";
 import CustomizedVideoSection from "../customizedVideoSection/customizedVideoSection";
 import Numbers from "../numbers/numbers"
+import Portfolio from "../portfolio/portfolio";
+import Process from "../process/process";
 
 import {
   layout,
@@ -16,6 +18,8 @@ const Layout = ({ pageTitle, children }) => {
        <Header/>
        <Numbers/>
        <CustomizedVideoSection/>
+       <Portfolio/>
+       <Process/>
       </main>
     </div>
   );
