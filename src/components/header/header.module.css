@@ -1,6 +1,7 @@
 .header {
     position: absolute;
-    width: 100%;
+    max-width: 1788px;
+    width:50%;
     height: 459px;
     left: 100px;
     top: 155px;

@@ -41,6 +41,12 @@
     top: 103px;
 
     border: 1px solid #939191;
+
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .email-input-box {
@@ -51,6 +57,12 @@
     top: 174px;
 
     border: 1px solid #939191;
+
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .website-input-box {
@@ -61,6 +73,12 @@
     top: 245px;
 
     border: 1px solid #939191;
+
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .phone-input-box {
@@ -71,6 +89,12 @@
     top: 316px;
 
     border: 1px solid #939191;
+
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .message-box {
@@ -81,6 +105,12 @@
     top: 387px;
 
     border: 1px solid #939191;
+
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .name-label {

@@ -7,7 +7,7 @@ import {
   centerNavigation,
   rightNavigation,
   logo,
-  callButton
+  callButton,
 } from "./navbar.module.css";
 
 const Navbar = () => {
