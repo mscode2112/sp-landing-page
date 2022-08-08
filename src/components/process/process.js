@@ -38,6 +38,7 @@ import {
     processContent, 
     processStep1Content, 
     processStep2Content, 
+    processStep3Content,
     processStep4Content, 
     processStep5Content,
     processStep6Content,
@@ -85,15 +86,15 @@ const Process = () => {
                 <text className={step2Heading}>Script</text> 
                 <text className={step2Content}>{processStep2Content}</text> 
                 <text className={step3Heading}>Storyboard</text> 
-                <text className={step3Content}>{processStep2Content}</text> 
+                <text className={step3Content}>{processStep3Content}</text> 
                 <text className={step4Heading}>Illustration</text> 
-                <text className={step4Content}>{processStep2Content}</text> 
+                <text className={step4Content}>{processStep4Content}</text> 
                 <text className={step5Heading}>Voice Over</text> 
-                <text className={step5Content}>{processStep2Content}</text> 
+                <text className={step5Content}>{processStep5Content}</text> 
                 <text className={step6Heading}>Animation</text> 
-                <text className={step6Content}>{processStep2Content}</text> 
+                <text className={step6Content}>{processStep6Content}</text> 
                 <text className={step7Heading}>Delivery</text> 
-                <text className={step7Content}>{processStep2Content}</text> 
+                <text className={step7Content}>{processStep7Content}</text> 
             </div>
         </div>
     </div>
