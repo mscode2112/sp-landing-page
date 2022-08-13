@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../navigation/navbar";
-import Header from "../header/header";
+import Hero from "../hero/hero";
+import Trial from "../trial/trial"
 import CustomizedVideoSection from "../customizedVideoSection/customizedVideoSection";
 import Numbers from "../numbers/numbers"
 import Portfolio from "../portfolio/portfolio";
@@ -20,8 +21,8 @@ const Layout = () => {
     <div className={layout}>
       <Navbar/>
       <main>
-       <Header/>
-       <Numbers/>
+       <Hero/>
+       <Trial/>
        <CustomizedVideoSection/>
        <Portfolio/>
        <Process/>

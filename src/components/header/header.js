@@ -13,7 +13,7 @@ import {
 } from "./header.module.css";
 import { headlineContent, subHeadlineContent } from "../../resources/strings.js"
 
-const Navbar = () => {
+const Header = () => {
   return (
     <div className={header}>
       <div className={leftHeader}>
@@ -29,4 +29,4 @@ const Navbar = () => {
     </div>
   );
 };
-export default Navbar;
+export default Header;

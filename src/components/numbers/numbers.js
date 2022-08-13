@@ -15,14 +15,21 @@ import { firstNumberValue, firstNumberContent, secondNumberValue, secondNumberCo
 const Numbers = () => {
   return (
     <div className={overlay}>
-        <text className={firstNumber}>{firstNumberValue}</text>
-        <text className={firstText}>{firstNumberContent}</text>
-        <div className={gradientLine1}/>
-        <text className={secondNumber}>{secondNumberValue}</text>
-        <text className={secondText}>{secondNumberContent}</text>
-        <div className={gradientLine2}/>
-        <text className={thirdNumber}>{thirdNumberValue}</text>
-        <text className={thirdText}>{thirdNumberContent}</text>
+        <div className={firstNumber}>{firstNumberValue}</div>
+        <div className={secondNumber}>{secondNumberValue}</div>
+        <div className={thirdNumber}>{thirdNumberValue}</div>
+        {/* <div className={firstText}>{firstNumberContent}</div>
+      </div>  
+      <div className={gradientLine1}/>
+      <div>
+        <div className={secondNumber}>{secondNumberValue}</div>
+        <div className={secondText}>{secondNumberContent}</div>
+      </div>  
+      <div className={gradientLine2}/>
+      <div>
+        <div className={thirdNumber}>{thirdNumberValue}</div>
+        <div className={thirdText}>{thirdNumberContent}</div>
+      </div>   */}
     </div>
   );
 };
