@@ -2,16 +2,20 @@ export const headlineContent=`Animated Explainer Videos As Exclusive As Your Bra
 export const subHeadlineContent=`Every business deserves a great story. 
 At SocioPixels, we use the power of video to communicate yours to the world and connect better with customers,
 increase brand awareness and generate leads.`
-export const section2HeadContent=`Customized Animated Videos for Your Needs`
-export const section2SubContent=`You are unique, and so are your needs!
+export const customVideoHeadContent=`Customized Animated Videos 
+for Your Needs`
+export const customVideoSubContent=`You are unique, and so are your needs!
 \n That is why we will perfectly design a tailor-made video for your business. Be it educating customers, demoing an app, driving sales, or simply resonating with your customers on social media.
 \n We take pride in treating every association with the utmost importance it deserves, and we want you to get the most out of every dollar spent.`
 export const firstNumberValue="74%"
 export const secondNumberValue="80%"
 export const thirdNumberValue="83%"
-export const firstNumberContent=`of users buy a product after watching an explainer video about it`
-export const secondNumberContent=`increased conversions by adding a product video on the website`
-export const thirdNumberContent=`of businesses believe video marketing gives them a good ROI`
+export const firstNumberContent=`of users buy a product after watching an 
+explainer video about it`
+export const secondNumberContent=`increased conversions by adding a 
+product video on the website`
+export const thirdNumberContent=`of businesses believe video 
+marketing gives them a good ROI`
 export const portfolioContent=`Each of our animated videos is an exclusive piece of art hand-crafted for our client.
 We are proud of what we deliver.`
 export const processContent=`A structured design process is half the job done. We make sure every step on the way is smooth and systematic. `

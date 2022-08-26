@@ -1,0 +1,117 @@
+.hero {
+    background: #FFFFFF;
+}
+
+.inner-hero {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+}
+
+.left-hero {
+    padding: 10% 25% 10% 5%;
+}
+
+.right-hero {
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero-image {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.headline {
+    font-family: 'Coda', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+    text-transform: capitalize;
+    color: #253139;
+}
+
+.subheadline {
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #757575;
+    padding-top: 20px;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+    background-color: #FFD5C1;
+    color: black;
+    padding: 80px;
+    height: 2px;
+}
+
+.button-container {
+    display: grid;
+    padding-top: 5%;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+.quote-button {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 10%;
+    align-items: center;
+    padding: 8px 22px;
+    width: 180px;
+    height: 45px;
+    border: 0;
+    background-color: #EF5026;
+    color: #FFFFFF;
+    font-family: 'Lato Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.46px;
+}
+
+.showreel-area {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+    padding-top: 8%;
+    align-items: center;
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.showreel-element {
+    flex: 1;
+    width: 90px;
+}
+
+@media (max-width: 600px) {
+    .left-hero {
+        padding: 10% 0% 10% 5%;
+    }
+}    

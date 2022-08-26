@@ -1,9 +1,8 @@
 import React from "react";
 import Navbar from "../navigation/navbar";
 import Hero from "../hero/hero";
-import Trial from "../trial/trial"
-import CustomizedVideoSection from "../customizedVideoSection/customizedVideoSection";
 import Numbers from "../numbers/numbers"
+import CustomVideo from "../customvideo/customvideo";
 import Portfolio from "../portfolio/portfolio";
 import Process from "../process/process";
 import BestInvestment from "../bestInvestment/bestInvestment";
@@ -22,8 +21,8 @@ const Layout = () => {
       <Navbar/>
       <main>
        <Hero/>
-       <Trial/>
-       <CustomizedVideoSection/>
+       <Numbers/>
+       <CustomVideo/>
        <Portfolio/>
        <Process/>
        <BestInvestment/>

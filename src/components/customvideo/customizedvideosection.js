@@ -18,7 +18,7 @@ import {
     section2TextHead,
     section2TextSub,
 } from "./customizedvideosection.module.css";
-import { section2HeadContent, section2SubContent } from "../../resources/strings.js"
+import { customVideoHeadContent, customVideoSubContent } from "../../resources/strings.js"
 
 const CustomizedVideoSection = () => {
   return (
@@ -38,8 +38,8 @@ const CustomizedVideoSection = () => {
             <text className={icon6Caption}>Whiteboard Videos</text>
         </div>
         <div>
-            <text className={section2TextHead}>{section2HeadContent}</text>
-            <text className={section2TextSub}>{section2SubContent}</text>
+            <text className={section2TextHead}>{customVideoHeadContent}</text>
+            <text className={section2TextSub}>{customVideoSubContent}</text>
         </div>
     </div>
   );

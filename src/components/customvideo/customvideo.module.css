@@ -1,0 +1,126 @@
+.container {
+    background: #FFD5C1;
+}
+
+.inner-container {
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 120px;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+
+.icon-section {
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2;
+    grid-gap:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    row-gap: 80px;
+    text-align: center;
+}
+
+.icon1 {
+    padding-top: 20px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icon2 {
+    padding-top: 1px;
+    margin: 0 auto;
+}
+
+.icon3 {
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.icon4 {
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.icon5 {
+    padding-top: 2px;
+    margin: 0 auto;
+}
+
+.icon6 {
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.caption {
+    padding-top: 20px;
+    font-family: 'Lato Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #EF5026;
+}
+
+.text-section {
+    display: grid;
+    margin: 0 auto;
+    padding-left: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.head-text {
+    font-family: 'Coda', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: #EF5026;
+}
+
+.sub-text{
+    padding-top: 30px;
+    padding-right: 100px;
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #757575;
+    white-space: pre-line;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .sub-text {
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .head-text {
+        white-space: pre-line;
+    }
+}
+
+@media (max-width: 600px) {
+    .text-section{
+        padding: 20px;
+        background: white;
+    }
+}
