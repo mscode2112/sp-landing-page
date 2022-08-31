@@ -1,5 +1,6 @@
 import React from "react";
 import { StaticImage } from 'gatsby-plugin-image'
+
 import {
     hero,
     innerHero,
@@ -20,18 +21,18 @@ const Hero = () => {
     <div className={hero}>
       <div className={innerHero}>
         <div className={leftHero}>
-          <div className={headline}>{headlineContent}</div>
-          <div className={subheadline}>{subHeadlineContent}</div>
+          <h1 className={headline}>{headlineContent}</h1>
+          <p className={subheadline}>{subHeadlineContent}</p>
           <div className={buttonContainer}>
-            <button className={quoteButton}>GET A QUOTE</button>
+            <button className={quoteButton}><strong>GET A QUOTE</strong></button>
             <div className={showreelArea}>
-              <div className={showreelElement}><StaticImage alt="Play Button for showreel" src="../../images/Watchme.svg" /> </div>
-              <div className={showreelElement}>Watch Me</div>
+              <div className={showreelElement}><StaticImage alt="Play Button for showreel" src="../images/Watchme.svg" /> </div>
+              <div className={showreelElement}><b>Watch Me</b></div>
             </div>
           </div>
         </div>
         <div className={rightHero}>
-          <div className={heroImage}><StaticImage alt="Hero image" src="../../images/Header Graphic.svg" /></div>
+          <div className={heroImage}><StaticImage alt="Hero image" src="../images/Header Graphic.svg" /></div>
         </div>
       </div>
     </div>

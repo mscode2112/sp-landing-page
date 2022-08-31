@@ -1,0 +1,45 @@
+:root {
+    --black: #253139;
+    --orange: #EF5026;
+    --light-orange: #FFD5C1;
+    --gray: #757575;
+}
+html {
+    font-size: calc(13px + 0.390625vw);
+}
+
+h1 {
+    font-family: 'Coda', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-family: 'Coda', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+p {
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.0rem;
+}
+
+b {
+    font-family: 'Lato Regular', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+strong {
+    font-family: 'Lato Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding-top: 20px;
+}
