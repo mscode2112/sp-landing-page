@@ -37,21 +37,6 @@
     padding: 5% 10% 0 0; 
 }
 
-.cards {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.card {
-    background-color: #FFD5C1;
-    color: black;
-    padding: 80px;
-    height: 2px;
-}
-
 .button-container {
     display: grid;
     padding-top: 5%;

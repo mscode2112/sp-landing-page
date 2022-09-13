@@ -33,7 +33,12 @@ export const bestInvestmentTitlePart2=`Your Best Investment`
 export const bestInvestmentContent=`Visuals can instantly do what tedious text, facts, and figures cannot. Videos are the most engaging way to explain what you do, stand out, attract customers and inspire them to act. A well-made video can do all this and more than any other marketing tool. 
 \nAnimated videos are great for giving customers an easy-to-understand picture of your products or services. Still, they are also a powerful way to connect with them at an emotional level.  `
 export const clientsHeadContent=`Loved by Many Valuable Brands`
-export const clientsSubContent=`Our clients are happy - from Fortune 100 brands to global enterprises, startups to SMEs, governments to NGOs.`
+export const clientsSubContent=`Our clients are happy - from Fortune 100 brands to global enterprises, 
+startups to SMEs, governments to NGOs.`
 export const footerHeading=`We Would Love To Hear From You`
 export const footerContent=`Are you ready to reap the benefits of an explainer video that sets you apart from your competition? 
 \nConnect with us today.`
+export const copyright=`Copyright © 2022 | SocioPixels`
+export const emailId=`info@sociopixels.com`
+export const contactNumber=`+61 4 2233 6496`
+export const location=`Melbourne, Australia`

@@ -1,4 +1,5 @@
 :root {
+    --white: #FFFFFF;
     --black: #253139;
     --orange: #EF5026;
     --light-orange: #FFD5C1;
@@ -22,11 +23,18 @@ h2 {
     font-size: 1.8rem;
 }
 
+h3 {
+    font-family: 'Coda', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
 p {
     font-family: 'Lato Regular', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.0rem;
+    font-size: 1rem;
 }
 
 b {
@@ -42,4 +50,12 @@ strong {
     font-weight: 700;
     font-size: 0.9rem;
     padding-top: 20px;
+}
+
+button {
+    width: 180px;
+    height: 45px;
+    border: 0;
+    background-color: var(--orange);
+    color: #FFFFFF;
 }

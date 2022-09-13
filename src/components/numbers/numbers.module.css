@@ -48,9 +48,8 @@
 }
 
 @media (max-width: 600px) {
-    .gradient-line {
-        width: 100px;
-        height: 5px;
+    .overlay {
+        display: none;
     }
 }
 
