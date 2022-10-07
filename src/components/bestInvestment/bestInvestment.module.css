@@ -1,75 +1,77 @@
-.rectangle {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1788px;
-    height: 475px;
-    left: 0px;
-    top: 4052px;
+.container {
     background: #FFD5C1;
 }
 
+.inner-container {
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    margin: 0 auto;
+}
+
+.image-section {
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
 .section-image {
-    position: absolute;
-    width: 600px;
-    height: 405px;
-    left: 178px;
-    top: 18px;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-section {
+    display: grid;
+    margin: 0 auto;
+    padding-left: 10%;
+    justify-content: center;
+    align-content: center;
 }
 
 .section-text-head-part1 {
-    position: absolute;
-    display: flex;
-    width: 568px;
-    height: 80px;
-    left: 964px;
-    top: 80px;
-
-    font-family: 'Coda', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
     line-height: 40px;
     letter-spacing: -0.5px;
-    text-transform: capitalize;
-
-    color: #253139;
+    color: var(--black);
+    white-space: pre-line;
 }
 
 .section-text-head-part2 {
-    position: absolute;
-    display: flex;
-    width: 568px;
-    height: 80px;
-    left: 1028px;
-    top: 121px;
-
-    font-family: 'Coda', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
     line-height: 40px;
     letter-spacing: -0.5px;
-    text-transform: capitalize;
-
-    color: #EF5026;
+    color: var(--orange);
 }
 
 .section-text-sub {
-    position: absolute;
-    width: 478px;
-    height: 220px;
-    left: 964px;
-    top: 200px;
-
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.2px;
-
-    color: #757575;
+    color: var(--gray);
     white-space: pre-line;
+    padding-right: 25%;
+}
+
+
+@media (min-width: 320px) and (max-width: 736px) {
+    .text-section {
+        justify-content: center;
+        align-content: center;
+        line-height: 22px;
+    }
+    .section-text-head-part1 {
+        white-space: normal;
+    }
+    .section-text-sub {
+        padding: 0 15% 5% 0;
+    }
+}
+
+@media (min-width: 738px) and (max-width: 1112px) {
+    .section-text-head-part1 {
+        white-space: normal;
+    }
+    .section-text-sub {
+        padding: 0 15% 5% 0;
+    }
 }

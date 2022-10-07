@@ -13,17 +13,17 @@ const Numbers = () => {
     <div className={overlay}>
         <div className={numberArea}>
             <div className={number}>{firstNumberValue}</div>
-            <div className={content}>{firstNumberContent}</div>
+            <p className={content}>{firstNumberContent}</p>
         </div>
         <div className={gradientLine}></div>
         <div className={numberArea}>
             <div className={number}>{secondNumberValue}</div>
-            <div className={content}>{secondNumberContent}</div>
+            <p className={content}>{secondNumberContent}</p>
         </div>
         <div className={gradientLine}></div>
         <div className={numberArea}> 
             <div className={number}>{thirdNumberValue}</div>
-            <div className={content}>{thirdNumberContent}</div>
+            <p className={content}>{thirdNumberContent}</p>
         </div>
     </div>
   );

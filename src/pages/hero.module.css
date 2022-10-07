@@ -1,5 +1,5 @@
 .hero {
-    background: #FFFFFF;
+    background: var(--white);
 }
 
 .inner-hero {
@@ -11,6 +11,7 @@
 }
 
 .left-hero {
+    display: grid;
     padding: 10% 25% 10% 5%;
 }
 
@@ -20,6 +21,13 @@
     justify-content: center;
     align-content: center;
     text-align: center;
+}
+
+.text-section {
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
 }
 
 .hero-image {
@@ -74,16 +82,29 @@
     width: 90px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 736px) {
     .left-hero {
-        padding: 10% 5% 10% 5%;
+        padding-right: 5%;
         justify-content: center;
         align-content: center;
         text-align: center;
         width: 100%;
     }
+    .text-section {
+        padding-right: 10%;
+    }
     .headline {
         line-height: 25px;
         font-size: 25px;
     }
-}  
+    .button-container {
+        padding-top: 0;
+    }
+    .showreel-element {
+        width: 60px;
+    }
+}
+
+@media (min-width: 738px) and (max-width: 1112px) {
+    
+}

@@ -1,3 +1,4 @@
+
 .container {
     background: #FFD5C1;
 }
@@ -7,9 +8,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: auto;
-    font-size: 20px;
     padding-bottom: 20px;
-    padding-top: 120px;
+    padding-top: 60px;
     margin: 0 auto;
     grid-gap: 20px;
 }
@@ -23,47 +23,45 @@
     padding-left: 20px;
     padding-right: 20px;
     align-content: center;
-    row-gap: 80px;
+    row-gap: 40px;
     text-align: center;
 }
 
+.icon {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .icon1 {
-    padding-top: 20px;
-    align-items: center;
+    padding-top: 8%;
     margin: 0 auto;
 }
 
 .icon2 {
-    padding-top: 1px;
     margin: 0 auto;
 }
 
 .icon3 {
-    padding-top: 10px;
+    padding-top: 6%;
     margin: 0 auto;
 }
 
 .icon4 {
-    padding-top: 10px;
+    padding-top: 3%;
     margin: 0 auto;
 }
 
 .icon5 {
-    padding-top: 2px;
     margin: 0 auto;
 }
 
 .icon6 {
-    padding-top: 10px;
+    padding-top: 3%;
     margin: 0 auto;
 }
 
 .caption {
-    padding-top: 20px;
-    font-family: 'Lato Bold', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.2px;
     color: #EF5026;
@@ -72,55 +70,48 @@
 .text-section {
     display: grid;
     margin: 0 auto;
-    padding-left: 40px;
+    padding-left: 10%;
     justify-content: center;
     align-content: center;
 }
 
 .head-text {
-    font-family: 'Coda', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
     line-height: 40px;
     letter-spacing: -0.5px;
     color: #EF5026;
+    white-space: pre-line;
 }
 
 .sub-text{
-    padding-top: 30px;
-    padding-right: 100px;
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    padding-right: 8%;
+    line-height: 120%;
     letter-spacing: 0.2px;
     color: #757575;
     white-space: pre-line;
 }
 
-@media (max-width: 600px) {
-    .container {
-        padding-left: 0;
+@media (min-width: 320px) and (max-width: 736px) {
+    .text-section{
+        padding-left: 5%;
+        background: white;
     }
-}
-
-@media (max-width: 600px) {
-    .sub-text {
-        padding-right: 0;
-    }
-}
-
-@media (min-width: 1024px) {
     .head-text {
+        white-space: normal;
+    }
+    .sub-text{
+        padding-right: 2%;
         white-space: pre-line;
     }
+    .icon3 {
+        padding-top: 25%;
+    }
 }
 
-@media (max-width: 600px) {
-    .text-section{
-        padding: 20px;
-        background: white;
+@media (min-width: 738px) and (max-width: 1112px) {
+    .head-text {
+        white-space: normal;
+    }
+    .icon3 {
+        padding-top: 15%;
     }
 }

@@ -67,6 +67,7 @@
 .video-image {
     height: 100%;
     max-width: 100%;
+    cursor: pointer;
 }
 
 .video-image:hover {

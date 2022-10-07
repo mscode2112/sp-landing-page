@@ -18,6 +18,9 @@ import {
 } from "./portfolio.module.css";
 import { portfolioContent } from "../resources/strings.js"
 import styled from "styled-components";
+import * as lity from 'lity';
+import '../../src/lity-2.4.1/assets/style.css';
+import '../../src/lity-2.4.1/dist/lity.css';
 
 const VideoCard = styled.div`
     position: relative;
@@ -51,8 +54,14 @@ const Portfolio = () => {
         const image = getImage(edge.node.thumbnail)
         portfolioArray.push(
             <VideoCard key={edge.node.id}>
-                <GatsbyImage className={videoImage} alt={edge.node.alt} image={image}/>
-                <div className={playButton}></div>
+                <div role="button" tabIndex={0} 
+                    onClick={() => { lity(edge.node.link); }}>
+                    <GatsbyImage className={videoImage} 
+                        alt={edge.node.alt} 
+                        image={image}
+                        />
+                    <div className={playButton}></div>
+                </div>
             </VideoCard>
         )
         return portfolioArray

@@ -1,307 +1,90 @@
-
-.headline-part1 {
-    position: absolute;
-    width: 569px;
-    height: 40px;
-    left: 450px;
-    top: 1464px;
-    font-family: 'Coda', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: -0.5px;
-    color: #253139;
+.container {
+    background: white;
 }
 
-.headline-part2 {
-    position: absolute;
-    width: 569px;
-    height: 40px;
-    left: 595px;
-    top: 1464px;
-    font-family: 'Coda', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 40px;
+.inner-container {
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.title-section {
     text-align: center;
+}
+
+.title-part1 {
+    line-height: 40px;
     letter-spacing: -0.5px;
-    color: #757575;
+    color: var(--black);
+}
+
+.title-part2 {
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: var(--gray);
     text-decoration-line: line-through;
 }
 
-.headline-part3 {
-    position: absolute;
-    width: 569px;
-    height: 40px;
-    left: 750px;
-    top: 1464px;
-    font-family: 'Coda', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
+.title-part3 {
     line-height: 40px;
-    text-align: center;
     letter-spacing: -0.5px;
-    color: #EF5026;
+    color: var(--orange);
 }
 
-.headline-part4 {
-    position: absolute;
-    width: 569px;
-    height: 40px;
-    left: 895px;
-    top: 1464px;
-    font-family: 'Coda', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
+.title-part4 {
     line-height: 40px;
-    text-align: center;
     letter-spacing: -0.5px;
-    color: #253139;
+    color: var(--black);
 }
 
-.subheadline {
-    position: absolute;
-    width: 687px;
-    height: 44px;
-    left: 600px;
-    top: 1520px;
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+.subtitle-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.subtitle {
     line-height: 22px;
-    text-align: center;
     letter-spacing: 0.2px;
-    color: #757575;
+    color: var(--gray);
+}
+
+.video-section {
+    display: grid;
+    max-width: 1500px;
+    grid-gap: 20px;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.video-image {
+    height: 100%;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.video-image:hover {
+    opacity: .7;
 }
 
 .play-button {
     position: absolute;
     width: 80px;
     height: 60px;
-    left: 206px;
-    top: 160px;
-
-    background: url(../../images/Play\ Button.svg);
-}
-
-.video-box1 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 66px;
-    top: 1606px;
-}
-
-.video-image1 {
-    width: 100%;
-    height: 365px;
-    background: url(../../images/thumbnails/Inlay.png);
-}
-
-.video-box2 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 632px;
-    top: 1606px;
-}
-
-.video-image2 {
-    width: 100%;
-    height: 365px;
-    left: 632px;
-    top: 1606px;
-
-    background: url(../../images/thumbnails/saarthee.png);
-}
-
-.video-box3 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 1188px;
-    top: 1606px;
-}
-
-.video-image3 {
-    width: 100%;
-    height: 365px;
-    left: 1188px;
-    top: 1606px;
-
-    background: url(../../images/thumbnails/leadics.png);
-}
-
-.video-box4 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 66px;
-    top: 2007px;
-}
-
-.video-image4 {
-    width: 100%;
-    height: 365px;
-    left: 66px;
-    top: 2007px;
-
-    background: url(../../images/thumbnails/emirates.png);
-}
-
-.video-box5 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 632px;
-    top: 2007px;
-}
-
-.video-image5 {
-    width: 100%;
-    height: 365px;
-    left: 632px;
-    top: 2007px;
-
-    background: url(../../images/thumbnails/hopq.png);
-}
-
-.video-box6 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 1188px;
-    top: 2007px;
-}
-
-.video-image6 {
-    width: 100%;
-    height: 365px;
-    left: 1188px;
-    top: 2007px;
-
-    background: url(../../images/thumbnails/dcstreetcar.png);
-}
-
-.video-box7 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 66px;
-    top: 2408px;
-}
-
-.video-image7 {
-    width: 100%;
-    height: 365px;
-    left: 66px;
-    top: 2408px;
-
-    background: url(../../images/thumbnails/hsc.png);
-}
-
-.video-box8 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 632px;
-    top: 2408px;
-}
-
-.video-image8 {
-    width: 100%;
-    height: 365px;
-    left: 632px;
-    top: 2408px;
-
-    background: url(../../images/thumbnails/pnut.png);
-}
-
-.video-box9 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 1188px;
-    top: 2408px;
-}
-
-.video-image9 {
-    width: 100%;
-    height: 365px;
-    left: 1188px;
-    top: 2408px;
-
-    background: url(../../images/thumbnails/newnordic.png);
-}
-
-.video-box10 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 66px;
-    top: 2809px;
-}
-
-.video-image10 {
-    width: 100%;
-    height: 365px;
-    left: 66px;
-    top: 2809px;
-
-    background: url(../../images/thumbnails/nursegrid.png);
-}
-
-.video-box11 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 632px;
-    top: 2809px;
-}
-
-.video-image11 {
-    width: 100%;
-    height: 365px;
-    left: 632px;
-    top: 2809px;
-
-    background: url(../../images/thumbnails/qverifier.png);
-}
-
-.video-box12 {
-    position: absolute;
-    width: 530px;
-    height: 391px;
-    left: 1188px;
-    top: 2809px;
-}
-
-.video-image12 {
-    width: 100%;
-    height: 365px;
-    left: 1188px;
-    top: 2809px;
-
-    background: url(../../images/thumbnails/companybrandstore.png);
+    top: 40%;
+    left: 40%;
+    z-index: 9;
+    background: url(../images/Play\ Button.svg);
 }
 
 .more-work-button {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    align-items: center;
-    padding: 26px;
-    width: 160px;
-    height: 45px;
-    left: 820px;
-    top:3210px;
-    border: 0;
     background-color: #EF5026;
     color: #FFFFFF;
     font-family: 'Lato Bold', sans-serif;
@@ -312,3 +95,21 @@
     text-align: center;
     letter-spacing: 0.46px;
 }
+
+@media (min-width: 320px) and (max-width: 736px) {
+    .subtitle-container {
+        width: 100%;
+    }
+    .video-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 738px) and (max-width: 1112px) {
+    .subtitle-container {
+        width: 77%;
+    }
+    .video-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}    

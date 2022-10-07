@@ -3,18 +3,21 @@
     display: flex;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(239, 80, 38, 0.4);
-    margin: 120px;
-    flex-flow: row wrap;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+    /* margin-bottom: -60px; */
+    /* flex-flow: row wrap; */
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     z-index: 10;
-    /* flex-grow: 1; */
 }
 
 .number-area {
     align-items: center;
+    padding-top: 0.5%;
 }
 
 .number {
@@ -22,21 +25,19 @@
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
-    line-height: 71px;
+    line-height: 55px;
     letter-spacing: -0.07em;
     color: #253139;
     text-align: center;
 }
 
 .content {
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-size: 0.8rem;
     line-height: 19px;
     text-align: center;
     letter-spacing: -0.05em;
     color: #757575;
+    white-space: pre-line;
 }
 
 .gradient-line {
@@ -45,18 +46,15 @@
     background: linear-gradient(180deg, #EF5026 0%, #FFFFFF 100%);
 }
 
-@media (max-width: 600px) {
-    .gradient-line {
-        width: 100px;
-        height: 5px;
+@media (min-width: 320px) and (max-width: 736px) {
+    .overlay {
+        display: none;
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 320px) and (max-width: 736px) {
     .content {
-        white-space: pre-line;
+        padding-left: 10px;
     }
 }
-
-
 

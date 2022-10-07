@@ -1,99 +1,94 @@
 import React from "react";
+import { useStaticQuery, graphql } from 'gatsby'
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import {
-    headlinePart1,
-    headlinePart2,
-    headlinePart3,
-    headlinePart4,
-    subheadline,
+    container,
+    innerContainer,
+    wrapper,
+    titleSection,
+    titlePart1,
+    titlePart2,
+    titlePart3,
+    titlePart4,
+    subtitleContainer,
+    subtitle,
+    videoSection,
+    videoImage,
     playButton,
-    videoBox1,
-    videoBox2,
-    videoBox3,
-    videoBox4,
-    videoBox5,
-    videoBox6,
-    videoBox7,
-    videoBox8,
-    videoBox9,
-    videoBox10,
-    videoBox11,
-    videoBox12,
-    videoImage1,
-    videoImage2,
-    videoImage3,
-    videoImage4,
-    videoImage5,
-    videoImage6,
-    videoImage7,
-    videoImage8,
-    videoImage9,
-    videoImage10,
-    videoImage11,
-    videoImage12,
-    moreWorkButton,
 } from "./portfolio.module.css";
 import { portfolioContent } from "../../resources/strings.js"
+import styled from "styled-components";
+import * as lity from 'lity';
+import '../../src/lity-2.4.1/assets/style.css';
+import '../../src/lity-2.4.1/dist/lity.css';
+
+const VideoCard = styled.div`
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+`
 
 const Portfolio = () => {
+    const data = useStaticQuery(graphql`
+            query PortfolioQuery {
+                allPortfolioJson {
+                    edges {
+                        node {
+                            id
+                            thumbnail {
+                                childImageSharp {
+                                    gatsbyImageData
+                                }
+                            }
+                            alt
+                            link
+                        }
+                    }
+                }
+            }    
+    `)
+  function getPortfolio(data) {
+    const portfolioArray = []
+    data.allPortfolioJson.edges.map(edge => {
+        const image = getImage(edge.node.thumbnail)
+        portfolioArray.push(
+            <VideoCard key={edge.node.id}>
+                <div role="button" tabIndex={0} 
+                    onClick={() => { lity(edge.node.link); }}>
+                    <GatsbyImage className={videoImage} 
+                        alt={edge.node.alt} 
+                        image={image}
+                        />
+                    <div className={playButton}></div>
+                </div>
+            </VideoCard>
+        )
+        return portfolioArray
+    });
+    return portfolioArray
+  }  
   return (
-    <div>
-        <text className={headlinePart1}>Our Work</text>
-        <text className={headlinePart2}>Speaks</text>
-        <text className={headlinePart3}>'Animates'</text>
-        <text className={headlinePart4}>For Us</text>
-        <text className={subheadline}>{portfolioContent}</text>
-        <div className={videoBox1}>
-            <div className={videoImage1}></div>
-            <div className={playButton}></div>
+     <div className={container}>
+        <div className={innerContainer}>
+            <div className={wrapper}>
+                <div className={titleSection}>
+                    <h2>
+                        <span className={titlePart1}>Our Work</span>
+                        <span className={titlePart2}> Speaks</span>
+                        <span className={titlePart3}> Animates</span>
+                        <span className={titlePart4}> For Us</span>
+                    </h2>
+                    <div className={subtitleContainer}>
+                        <p className={subtitle}>{portfolioContent}</p>
+                    </div>   
+                </div>    
+                <div className={videoSection}>
+                    {getPortfolio(data)}
+                </div>
+            </div>
         </div>
-        <div className={videoBox2}>
-            <div className={videoImage2}></div>
-            <div className={playButton}></div>
-        </div>  
-        <div className={videoBox3}>
-            <div className={videoImage3}></div>
-            <div className={playButton}></div>
-        </div> 
-        <div className={videoBox4}>
-            <div className={videoImage4}></div>
-            <div className={playButton}></div>
-        </div>   
-        <div className={videoBox5}>
-            <div className={videoImage5}></div>
-            <div className={playButton}></div>
-        </div> 
-        <div className={videoBox6}>
-            <div className={videoImage6}></div>
-            <div className={playButton}></div>
-        </div>  
-        <div className={videoBox7}>
-            <div className={videoImage7}></div>
-            <div className={playButton}></div>
-        </div>  
-        <div className={videoBox8}>
-            <div className={videoImage8}></div>
-            <div className={playButton}></div>
-        </div>  
-        <div className={videoBox9}>
-            <div className={videoImage9}></div>
-            <div className={playButton}></div>
-        </div> 
-        <div className={videoBox10}>
-            <div className={videoImage10}></div>
-            <div className={playButton}></div>
-        </div>     
-        <div className={videoBox11}>
-            <div className={videoImage11}></div>
-            <div className={playButton}></div>
-        </div> 
-        <div className={videoBox12}>
-            <div className={videoImage12}></div>
-            <div className={playButton}></div>
-        </div> 
-        <div>
-            <button className={moreWorkButton}>MORE WORK</button>
-        </div>
-    </div>
+    </div>        
   );
 };
 export default Portfolio;

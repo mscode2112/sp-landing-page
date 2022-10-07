@@ -4,6 +4,7 @@ module.exports = {
     siteUrl: `https://www.sociopixels.com.au`
   },
   plugins: [
+    "lightgallery",
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
@@ -22,6 +23,6 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       }
-    }  
+    }
   ]
 };
