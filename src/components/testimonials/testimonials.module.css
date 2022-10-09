@@ -1,4 +1,6 @@
-.container {}
+.container {
+    padding-top: 5%;
+}
 
 .inner-container {
     max-width: 1500px;
@@ -87,7 +89,7 @@
     top: 35%;
     left: 40%;
     z-index: 9;
-    background: url(../images/Play\ Button.svg);
+    background: url(../../images/Play\ Button.svg);
 }
 
 @media (min-width: 320px) and (max-width: 736px) {

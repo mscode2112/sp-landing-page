@@ -21,6 +21,7 @@ import {
     stepTitle,
     stepContent,
     contentBox,
+    contentBox2,
 } from "./process.module.css";
 import { 
     processContent, 
@@ -62,7 +63,7 @@ const Process = () => {
                         <div className={processStep}>
                             <div className={rectangleEven}>
                                 <div className={stepImage}><StaticImage alt="Design Process Step 2 - Script" src="../../images/graphic 2.svg"/></div>
-                                <div className={contentBox}>
+                                <div className={contentBox2}>
                                     <h1 className={stepTitle}>Script</h1>
                                     <p className={stepContent}>{processStep2Content}</p>
                                 </div>

@@ -59,3 +59,9 @@ button {
     background-color: var(--orange);
     color: #FFFFFF;
 }
+
+@media (min-width: 320px) and (max-width: 748px) {
+    button {
+        width: 140px;
+    }
+}    

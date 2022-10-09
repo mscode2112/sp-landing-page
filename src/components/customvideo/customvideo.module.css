@@ -1,6 +1,7 @@
 
 .container {
     background: #FFD5C1;
+    margin-top: -4%;
 }
 
 .inner-container {
@@ -8,8 +9,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: auto;
-    padding-bottom: 20px;
-    padding-top: 60px;
+    padding-bottom: 2%;
+    padding-top: 8%;
     margin: 0 auto;
     grid-gap: 20px;
 }
@@ -108,8 +109,23 @@
 }
 
 @media (min-width: 738px) and (max-width: 1112px) {
+    .container {
+        margin-top: 0;
+    }
+    .inner-container {
+        max-width: 1500px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: auto;
+        padding: 6% 2% 2% 2%;
+        margin: 0 auto;
+        grid-gap: 20px;
+    }
     .head-text {
         white-space: normal;
+    }
+    .icon-section {
+        row-gap: 0;
     }
     .icon3 {
         padding-top: 15%;

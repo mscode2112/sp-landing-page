@@ -1,12 +1,13 @@
 .container {
     background: white;
+    padding-top: 5%;
 }
 
 .inner-container {
     max-width: 1500px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
     margin: 0 auto;
 }
 
@@ -81,7 +82,7 @@
     top: 40%;
     left: 40%;
     z-index: 9;
-    background: url(../images/Play\ Button.svg);
+    background: url(../../images/Play\ Button.svg);
 }
 
 .more-work-button {

@@ -12,8 +12,10 @@ const Numbers = () => {
   return (
     <div className={overlay}>
         <div className={numberArea}>
+            <div>
             <div className={number}>{firstNumberValue}</div>
             <p className={content}>{firstNumberContent}</p>
+            </div>
         </div>
         <div className={gradientLine}></div>
         <div className={numberArea}>

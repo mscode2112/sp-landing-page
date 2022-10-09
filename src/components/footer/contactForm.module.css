@@ -1,216 +1,77 @@
-.contact-form-box {
-    position: absolute;
-    width: 548px;
-    height: 570px;
-    left: 1044px;
-    top: 53px;
-
-    background: #FFFFFF;
+.container {
+    background: var(--white);
     box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.35);
 }
 
-.contact-form {
-    width: 400px;
-    height: 493px;
-    left: 803px;
-    top: 91px;
+.inner-container {
+    max-width: 548px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .request-quote-label {
-    position: absolute;
-    width: 208px;
-    height: 40px;
-    left: 167px;
-    top: 38px;
+    line-height: 40px;
+    text-align: center;
+    color: var(--black); 
+}
 
+.input-form {
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    text-align: center;
+}
+
+.input-box {
     font-family: 'Coda', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 40px;
-    text-align: center;
-
-    color: #253139; 
-}
-
-.name-input-box {
-    position: absolute;
-    width: 400px;
-    height: 30px;
-    left: 70px;
-    top: 103px;
-
-    border: 1px solid #939191;
-
-        font-family: 'Lato Regular', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-}
-
-.email-input-box {
-    position: absolute;
-    width: 400px;
-    height: 30px;
-    left: 70px;
-    top: 174px;
-
-    border: 1px solid #939191;
-
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-}
-
-.website-input-box {
-    position: absolute;
-    width: 400px;
-    height: 30px;
-    left: 70px;
-    top: 245px;
-
     border: 1px solid #939191;
-
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    padding-left: 4px;
 }
 
-.phone-input-box {
-    position: absolute;
-    width: 400px;
-    height: 30px;
-    left: 70px;
-    top: 316px;
-
-    border: 1px solid #939191;
-
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.message-box {
-    position: absolute;
-    width: 400px;
-    height: 75px;
-    left: 70px;
-    top: 387px;
-
-    border: 1px solid #939191;
-
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.name-label {
-    position: absolute;
-    width: 98px;
-    height: 24px;
-    left: 50px;
-    top: 103px;
-
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #253139;
-}
-
-.email-label {
-    position: absolute;
-    width: 98px;
-    height: 24px;
-    left: 50px;
-    top: 184px;
-
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #253139;
-}
-
-.website-label {
-    position: absolute;
-    width: 117px;
-    height: 24px;
-    left: 50px;
-    top: 265px;
-
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #253139;
-}
-
-.phone-label {
-    position: absolute;
-    width: 101px;
-    height: 24px;
-    left: 50px;
-    top: 346px;
-
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #253139;
-}
-
-.message-label {
-    position: absolute;
-    width: 200px;
-    height: 24px;
-    left: 50px;
-    top: 427px;
-
-    font-family: 'Lato Regular', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #253139;
+.button-container {
+    margin: 0 auto;
+    padding-left: 5%;
 }
 
 .submit-button {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    align-items: center;
     padding: 8px 32px;
-    width: 160px;
-    height: 45px;
-    left: 200px;
-    top: 500px;
-    border: 0;
-    background-color: #EF5026;
-    color: #FFFFFF;
-    font-family: 'Lato Bold', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
     line-height: 25px;
     text-align: center;
     letter-spacing: 5px;
+}
+
+
+@media (min-width: 320px) and (max-width: 736px) {
+    .container {
+        width: 100%;
+    }
+    .inner-container {
+        padding: 10px 10px 30px 10px;
+    }   
+    .input-form {
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 738px) and (max-width: 1112px) {
+    .input-form {
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }

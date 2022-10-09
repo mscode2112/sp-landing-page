@@ -9,7 +9,7 @@ import BestInvestment from "../bestInvestment/bestInvestment";
 import Clients from "../clients/clients";
 import Testimonials from "../testimonials/testimonials";
 import Footer from "../footer/footer";
-import Faqs from "../faqs/faqs";
+// import Faqs from "../faqs/faqs";
 
 import {
   layout,
@@ -28,7 +28,7 @@ const Layout = () => {
        <BestInvestment/>
        <Clients/>
        <Testimonials/>
-       <Faqs/>
+       {/* <Faqs/> */}
        <Footer/>
       </main>
     </div>

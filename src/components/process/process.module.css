@@ -1,12 +1,14 @@
 .container {
     background: white;
+    padding-top: 5%;
+    padding-bottom: 8%;
 }
 
 .inner-container {
     max-width: 1500px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
     margin: 0 auto;
 }
 
@@ -105,6 +107,12 @@
 
 .content-box {
     margin: 0 auto;
+    padding-top: 10%;
+}
+
+.content-box2 {
+    margin: 0 auto;
+    padding-top: 4%;
 }
 
 .step-title {
@@ -156,6 +164,11 @@
 }
 
 @media (min-width: 738px) and (max-width: 1112px) {
+    .container {
+        background: white;
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
     .subtitle-container {
         width: 100%;
     }

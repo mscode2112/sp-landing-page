@@ -1,20 +1,9 @@
 .rectangle {
-    position: absolute;
     display: flex;
     flex-direction: column;
-    width: 75%;
-    height: 260px;
-    left: 200px;
-    top: 5513px;
 }
 
 .section-text-head {
-    position: absolute;
-    width: 463px;
-    height: 40px;
-    left: 500px;
-    top: 7px;
-
     font-family: 'Coda', sans-serif;
     font-style: normal;
     font-weight: 400;

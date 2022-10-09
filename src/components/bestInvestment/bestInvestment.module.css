@@ -1,5 +1,7 @@
 .container {
     background: #FFD5C1;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .inner-container {
@@ -68,6 +70,10 @@
 }
 
 @media (min-width: 738px) and (max-width: 1112px) {
+    .container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
     .section-text-head-part1 {
         white-space: normal;
     }

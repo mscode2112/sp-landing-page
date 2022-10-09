@@ -2,7 +2,7 @@ import React from "react";
 import { StaticImage } from 'gatsby-plugin-image'
 
 import {
-} from "../../src/global/global.css"
+} from "../../global/global.css"
 import {
   container,
   innerContainer,

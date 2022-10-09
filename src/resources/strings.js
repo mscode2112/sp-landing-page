@@ -36,8 +36,8 @@ export const clientsHeadContent=`Loved by Many Valuable Brands`
 export const clientsSubContent=`Our clients are happy - from Fortune 100 brands to global enterprises, 
 startups to SMEs, governments to NGOs.`
 export const footerHeading=`We Would Love To Hear From You`
-export const footerContent=`Are you ready to reap the benefits of an explainer video that sets you apart from your competition? 
-\nConnect with us today.`
+export const footerContent=`Are you ready to reap the benefits of an explainer video that sets you apart from your competition? `
+export const ctaContent=`Connect with us today.`
 export const copyright=`Copyright © 2022 | SocioPixels`
 export const emailId=`info@sociopixels.com`
 export const contactNumber=`+61 4 2233 6496`

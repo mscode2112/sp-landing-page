@@ -1,8 +1,8 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import * as lity from 'lity';
-import '../../src/lity-2.4.1/assets/style.css';
-import '../../src/lity-2.4.1/dist/lity.css';
+import '../../lity-2.4.1/assets/style.css';
+import '../../lity-2.4.1/dist/lity.css';
 
 import {
     container,

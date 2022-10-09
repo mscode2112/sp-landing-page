@@ -53,6 +53,9 @@
     .container {
         width: 100%;
     }
+    .inner-container {
+        padding: 10px 10px 30px 10px;
+    }    
     .input-form {
         margin: 0 auto;
         padding-left: 20px;

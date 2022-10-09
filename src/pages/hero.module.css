@@ -82,7 +82,7 @@
     width: 90px;
 }
 
-@media (min-width: 320px) and (max-width: 736px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .left-hero {
         padding-right: 5%;
         justify-content: center;
@@ -90,21 +90,42 @@
         text-align: center;
         width: 100%;
     }
+
     .text-section {
         padding-right: 10%;
     }
+
     .headline {
         line-height: 25px;
         font-size: 25px;
     }
+
     .button-container {
         padding-top: 0;
+        padding-left: 10%;
+        gap: 0;
     }
+
     .showreel-element {
         width: 60px;
     }
 }
 
 @media (min-width: 738px) and (max-width: 1112px) {
-    
+    .inner-hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .left-hero {
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        width: 90%;
+    }
+    .button-container {
+        padding-top: 0;
+        padding-left: 25%;
+        padding-right: 15%;
+        gap: 0;
+    }
 }

@@ -30,24 +30,7 @@ const VideoCard = styled.div`
 `
 
 const Portfolio = () => {
-    const data = useStaticQuery(graphql`
-            query PortfolioQuery {
-                allPortfolioJson {
-                    edges {
-                        node {
-                            id
-                            thumbnail {
-                                childImageSharp {
-                                    gatsbyImageData
-                                }
-                            }
-                            alt
-                            link
-                        }
-                    }
-                }
-            }    
-    `)
+    const data = ""
   function getPortfolio(data) {
     const portfolioArray = []
     data.allPortfolioJson.edges.map(edge => {

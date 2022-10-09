@@ -1,47 +1,85 @@
+import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import {
-    mainFooter,
-    bottomBox,
-    line,
-    copyrightText,
-    footerHeadText,
-    footerSubText,
-    textSeparator,
-    phoneIcon,
-    mailIcon,
-    locationIcon,
-    phoneText,
-    mailText,
-    locationText,
-    facebookIcon,
-    instagramIcon,
-    linkedinIcon,
-    youtubeIcon,
+  container,
+  innerContainer,
+  wrapperTop,
+  wrapperBottom,
+  contactSection,
+  textSection,
+  titleBox,
+  textBox,
+  ctaBox,
+  footerText,
+  textSeparator,
+  formContainer,
+  formSection,
+  socialMediaSection,
+  socialMediaBox,
+  icon,
+  contactText,
+  contactBox,
+  copyrightSection,
+  copyrightLine,
+  copyrightText,
 } from "./footer.module.css"
 import { ContactForm } from "./contactForm"
-import { footerHeading, footerContent } from "../../resources/strings"
+import { contactNumber, emailId, location, footerHeading, footerContent, ctaContent, copyright } from "../../resources/strings"
 
 const Footer = () => {
   return (
-    <div className={mainFooter}>
-      <div className={bottomBox}></div>
-      <ContactForm/>
-      <div className={line}></div>
-      <text className={footerHeadText}>{footerHeading}</text>
-      <text className={footerSubText}>{footerContent}</text>
-      <div className={textSeparator}></div>
-      <text className={copyrightText}>Copyright © 2022 | SocioPixels</text>
-      <div className={phoneIcon}></div>
-      <div className={mailIcon}></div>
-      <div className={locationIcon}></div>
-      <text className={phoneText}>+61 4 2236 496</text>
-      <text className={mailText}>info@sociopixels.com</text>
-      <text className={locationText}>Melbourne, Australia</text>
-      <div className={facebookIcon}></div>
-      <div className={instagramIcon}></div>
-      <div className={linkedinIcon}></div>
-      <div className={youtubeIcon}></div>
-    </div>
+    <div className={container}>
+      <div className={innerContainer}>
+        <div className={wrapperTop}>
+          <div className={textSection}>
+            <div className={titleBox} >
+              <h3 className={footerText}>{footerHeading}</h3>
+              <div className={textSeparator}/>
+            </div>
+            <div className={textBox}>  
+              <h3 className={footerText}>{footerContent}</h3>
+            </div>
+            <div className={ctaBox}>  
+              <h3 className={footerText}>{ctaContent}</h3>
+            </div>
+          </div>
+          <div className={formContainer}>
+            <div className={formSection}>
+                <ContactForm/>
+            </div>
+            <br/><br/>
+            <div className={socialMediaSection}>
+              <div className={socialMediaBox}>
+                <StaticImage className={icon} alt="Facebook Icon" src="../../images/facebook icon.svg"></StaticImage>
+                <StaticImage className={icon} alt="Instagram Icon" src="../../images/instagram icon.svg"></StaticImage>
+                <StaticImage className={icon} alt="Linkedin Icon" src="../../images/linkedin icon.svg"></StaticImage>
+                <StaticImage className={icon} alt="Youtube Icon" src="../../images/youtube icon.svg"></StaticImage>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={wrapperBottom}>
+          <div className={contactSection}>
+            <div className={contactBox}>
+              <StaticImage className={icon} alt="Call Icon" src="../../images/whatsapp icon.svg"></StaticImage>
+              <p className={contactText}>{contactNumber}</p>
+            </div>
+            <div className={contactBox}>
+              <StaticImage className={icon} alt="Mail Icon" src="../../images/mail icon.svg"></StaticImage>
+              <p className={contactText}>{emailId}</p>
+            </div>
+            <div className={contactBox}>
+              <StaticImage className={icon} alt="Location Icon" src="../../images/location icon.svg"></StaticImage>
+              <p className={contactText}>{location}</p>
+            </div>
+          </div>
+          <div className={copyrightSection}>
+            <div className={copyrightLine}></div>
+            <p className={copyrightText}>{copyright}</p>
+          </div>
+        </div>
+      </div>
+    </div>    
   );
 };
 
