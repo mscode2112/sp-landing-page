@@ -65,7 +65,7 @@
 .caption {
     line-height: 22px;
     letter-spacing: 0.2px;
-    color: #EF5026;
+    color: var(--orange);
 }
 
 .text-section {
@@ -79,7 +79,7 @@
 .head-text {
     line-height: 40px;
     letter-spacing: -0.5px;
-    color: #EF5026;
+    color: var(--orange);
     white-space: pre-line;
 }
 
@@ -94,7 +94,7 @@
 @media (min-width: 320px) and (max-width: 736px) {
     .text-section{
         padding-left: 5%;
-        background: white;
+        background: var(--white);
     }
     .head-text {
         white-space: normal;

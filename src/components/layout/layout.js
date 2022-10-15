@@ -4,6 +4,7 @@ import Hero from "../hero/hero";
 import Numbers from "../numbers/numbers"
 import CustomVideo from "../customvideo/customvideo";
 import Portfolio from "../portfolio/portfolio";
+import Portfolio2 from "../portfolio/portfolio2";
 import Process from "../process/process";
 import BestInvestment from "../bestInvestment/bestInvestment";
 import Clients from "../clients/clients";

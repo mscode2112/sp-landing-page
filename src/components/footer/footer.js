@@ -28,7 +28,7 @@ import { contactNumber, emailId, location, footerHeading, footerContent, ctaCont
 
 const Footer = () => {
   return (
-    <div className={container}>
+    <div id="footer" className={container}>
       <div className={innerContainer}>
         <div className={wrapperTop}>
           <div className={textSection}>
@@ -61,7 +61,7 @@ const Footer = () => {
         <div className={wrapperBottom}>
           <div className={contactSection}>
             <div className={contactBox}>
-              <StaticImage className={icon} alt="Call Icon" src="../../images/whatsapp icon.svg"></StaticImage>
+              <StaticImage className={icon} alt="Call Icon" src="../../images/call 1.png"></StaticImage>
               <p className={contactText}>{contactNumber}</p>
             </div>
             <div className={contactBox}>

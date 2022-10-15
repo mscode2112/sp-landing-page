@@ -1,26 +1,40 @@
-import React from "react";
+import React, { useState } from "react"
+import NavbarLinks from './navbarLinks'
 import { StaticImage } from 'gatsby-plugin-image'
-import Nav from "./nav"
+
 import {
-  navigation,
-  leftNavigation,
-  centerNavigation,
-  rightNavigation,
-  logo,
-  callButton,
-} from "./navbar.module.css";
+  LogoWrap,
+  Navigation,
+  Toggle,
+  Hamburger,
+  NavBox,
+} from './navbar.styled'
 
 const Navbar = () => {
+  const [navbarOpen, setNavbarOpen] = useState(false)
+
   return (
-    <div className={navigation}>
-      <div className={leftNavigation}>
-        <StaticImage className= {logo} alt="SocioPixels Logo" src="../../images/Logo-2020-Full.png" />
-      </div>
-      <div className={centerNavigation}><Nav/></div>
-      <div className={rightNavigation}>
-        <button className= {callButton}>CALL +61 4 2233 6496</button>
-      </div>  
-    </div>
-  );
-};
+    <Navigation>
+      <LogoWrap>
+        <StaticImage alt="SocioPixels Logo" src="../../images/Logo-2020-Full.png" />
+      </LogoWrap>  
+      <Toggle
+        navbarOpen={navbarOpen}
+        onClick={() => setNavbarOpen(!navbarOpen)}
+      >
+        {navbarOpen ? <Hamburger open /> : <Hamburger />}
+      </Toggle>
+      {navbarOpen ? (
+        <NavBox>
+          <NavbarLinks />
+        </NavBox>
+      ) : (
+        <NavBox open>
+          <NavbarLinks />
+        </NavBox>
+      )}
+    </Navigation>
+  )
+}
+
 export default Navbar;

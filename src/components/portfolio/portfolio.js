@@ -1,4 +1,6 @@
 import React from "react";
+import * as ReactDOM from 'react-dom';
+import { navigate } from 'gatsby';
 import { useStaticQuery, graphql } from 'gatsby'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import {
@@ -15,12 +17,15 @@ import {
     videoSection,
     videoImage,
     playButton,
+    buttonContainer,
+    moreWorkButton,
 } from "./portfolio.module.css";
 import { portfolioContent } from "../../resources/strings.js"
 import styled from "styled-components";
 import * as lity from 'lity';
 import '../../lity-2.4.1/assets/style.css';
 import '../../lity-2.4.1/dist/lity.css';
+import Portfolio2 from "./portfolio2";
 
 const VideoCard = styled.div`
     position: relative;
@@ -30,6 +35,12 @@ const VideoCard = styled.div`
 `
 
 const Portfolio = () => {
+    const [visibleMoreWork, setVisibleMoreWork] = React.useState(false);
+    const [visibleMoreWorkButton, setVisibleMoreWorkButton] = React.useState(true);
+    function showMoreWork() {
+        setVisibleMoreWork(true);
+        setVisibleMoreWorkButton(false);
+    }
     const data = useStaticQuery(graphql`
             query PortfolioQuery {
                 allPortfolioJson {
@@ -69,7 +80,7 @@ const Portfolio = () => {
     return portfolioArray
   }  
   return (
-     <div className={container}>
+     <div id="portfolio" className={container}>
         <div className={innerContainer}>
             <div className={wrapper}>
                 <div className={titleSection}>
@@ -86,6 +97,18 @@ const Portfolio = () => {
                 <div className={videoSection}>
                     {getPortfolio(data)}
                 </div>
+                {visibleMoreWorkButton &&
+                    <div className={buttonContainer}>
+                        <button className={moreWorkButton} onClick={() => showMoreWork()}>
+                            <strong>MORE WORK</strong>
+                        </button>
+                    </div>
+                }
+                {visibleMoreWork && 
+                    <div>
+                        <Portfolio2/>
+                    </div>
+                }
             </div>
         </div>
     </div>        

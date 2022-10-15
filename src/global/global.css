@@ -57,7 +57,7 @@ button {
     height: 45px;
     border: 0;
     background-color: var(--orange);
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 @media (min-width: 320px) and (max-width: 748px) {

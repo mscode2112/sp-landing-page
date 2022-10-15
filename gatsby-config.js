@@ -4,7 +4,7 @@ module.exports = {
     siteUrl: `https://www.sociopixels.com.au`
   },
   plugins: [
-    "lightgallery",
+    "gatsby-plugin-anchor-links",
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",

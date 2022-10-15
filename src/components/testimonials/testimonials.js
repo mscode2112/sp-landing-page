@@ -20,7 +20,7 @@ import {
 const Testimonials = () => {
     return (
         <>
-        <div className={container}>
+        <div id="testimonials" className={container}>
             <div className={innerContainer}>
                 <div className={wrapper}>
                     <div className={titleSection}>
@@ -34,8 +34,8 @@ const Testimonials = () => {
                             <div className={videoImage} 
                                 role="button" 
                                 tabIndex={0} 
-                                onClick={() => { lity('https://fast.wistia.net/embed/iframe/n1vtaxsjzd');}}
-                                onKeyDown={() => { lity('https://fast.wistia.net/embed/iframe/n1vtaxsjzd');}}
+                                onClick={() => { lity('https://youtu.be/embed/-K93g6oOmZI');}}
+        
                             >
                                 <StaticImage alt="Client testimonial 1" src="../../images/thumbnails/testimonial-RodBerger.png"/>
                                 <div className={playButton}></div>
@@ -45,8 +45,7 @@ const Testimonials = () => {
                             <div className={videoImage} 
                                 role="button" 
                                 tabIndex={0} 
-                                onClick={() => { lity('https://fast.wistia.net/embed/iframe/yqhrdt02ks');}}
-                                onKeyDown={() => { lity('https://fast.wistia.net/embed/iframe/yqhrdt02ks');}}
+                                onClick={() => { lity('https://youtu.be/embed/3zAU__IipqU');}}
                             >
                                 <StaticImage alt="Client testimonial 2" src="../../images/thumbnails/testimonial-CJ.png"/>
                                 <div className={playButton}></div>
@@ -56,8 +55,7 @@ const Testimonials = () => {
                             <div className={videoImage} 
                                 role="button" 
                                 tabIndex={0} 
-                                onClick={() => { lity('https://fast.wistia.net/embed/iframe/7ra4b38ux6');}}
-                                onKeyDown={() => { lity('https://fast.wistia.net/embed/iframe/7ra4b38ux6');}}
+                                onClick={() => { lity('https://youtu.be/embed/oiw8nnzDSFY');}}
                             >
                                 <StaticImage alt="Client testimonial 3" src="../../images/thumbnails/testimonial-GB.png"/>
                                 <div className={playButton}></div>

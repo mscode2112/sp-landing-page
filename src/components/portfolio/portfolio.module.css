@@ -2,7 +2,9 @@
     background: white;
     padding-top: 5%;
 }
-
+.container2 {
+    background: white;
+}
 .inner-container {
     max-width: 1500px;
     display: grid;
@@ -85,8 +87,16 @@
     background: url(../../images/Play\ Button.svg);
 }
 
+.button-container {
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
 .more-work-button {
-    background-color: #EF5026;
+    background-color: var(--orange);
     color: #FFFFFF;
     font-family: 'Lato Bold', sans-serif;
     font-style: normal;
@@ -95,6 +105,18 @@
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.46px;
+    width: 190px;
+    padding: 8px 32px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.more-work-button:hover {
+    background-color: var(--white);
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    transition: 0.7s;
 }
 
 @media (min-width: 320px) and (max-width: 736px) {

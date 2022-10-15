@@ -37,7 +37,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const Process = () => {
   return (
-    <div className={container}>
+    <div id="process" className={container}>
         <div className={innerContainer}>
             <div className={processContainer}>
                 <div className={titleSection}>

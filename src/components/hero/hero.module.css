@@ -67,6 +67,13 @@
     letter-spacing: 0.5px;
 }
 
+.quote-button:hover {
+    background-color: var(--white);
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    transition: 0.7s;
+}
+
 .showreel-area {
     grid-column-start: 3;
     grid-column-end: 4;
@@ -82,7 +89,7 @@
     width: 90px;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 736px) {
     .left-hero {
         padding-right: 5%;
         justify-content: center;
