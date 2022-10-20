@@ -1,5 +1,9 @@
 import React from "react";
 import { StaticImage } from 'gatsby-plugin-image'
+import { navigate } from "gatsby";
+import * as lity from 'lity';
+import '../../lity-2.4.1/assets/style.css';
+import '../../lity-2.4.1/dist/lity.css';
 
 import {
     hero,
@@ -13,7 +17,9 @@ import {
     buttonContainer,
     quoteButton,
     showreelArea,
-    showreelElement,
+    showreelButton,
+    showreelText,
+    videoContainer,
 } from "./hero.module.css";
 import { headlineContent, subHeadlineContent } from "../../resources/strings.js"
 
@@ -27,10 +33,17 @@ const Hero = () => {
             <p className={subheadline}>{subHeadlineContent}</p>
           </div>
           <div className={buttonContainer}>
-            <button className={quoteButton}><strong>GET A QUOTE</strong></button>
+            <button className={quoteButton}
+              onClick={() => { navigate("#footer")}}>
+                <strong>GET A QUOTE</strong>
+            </button>
             <div className={showreelArea}>
-              <div className={showreelElement}><StaticImage alt="Play Button for showreel" src="../../images/Watchme.svg" /> </div>
-              <div className={showreelElement}><b>Watch Me</b></div>
+              <div className={showreelButton} 
+                    onClick={() => { lity('https://youtu.be/embed/KeHw6RJAdr0');}}
+                    >
+                      <StaticImage alt="Play Button for showreel" src="../../images/Watchme.svg" /> 
+              </div>
+              <div className={showreelText}><b>Watch Me</b></div>
             </div>
           </div>
         </div>

@@ -71,10 +71,14 @@
     height: 100%;
     max-width: 100%;
     cursor: pointer;
+    transition: transform .5s;
 }
 
 .video-image:hover {
     opacity: .7;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .play-button {

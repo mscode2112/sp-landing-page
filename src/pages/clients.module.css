@@ -39,10 +39,15 @@
     display: grid;
     max-width: 1500px;
     justify-items: center;
-    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(4, 1fr);
     padding-top: 30px;
     margin: 0 auto;
     background: var(--light-orange);
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
 }
 
 @media (min-width: 320px) and (max-width: 736px) {

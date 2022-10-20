@@ -1,4 +1,4 @@
-export const headlineContent=`Animated Explainer Videos As Exclusive As Your Brand`
+export const headlineContent=`Animated Explainer Videos as Exclusive as Your Brand`
 export const subHeadlineContent=`Every business deserves a great story. 
 At SocioPixels, we use the power of video to communicate yours to the world and connect better with customers,
 increase brand awareness and generate leads.`

@@ -1,4 +1,5 @@
 .container {
+    background: white;
     padding-top: 5%;
 }
 
@@ -44,6 +45,11 @@
     padding-top: 30px;
     margin: 0 auto;
     background: var(--light-orange);
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
 }
 
 @media (min-width: 320px) and (max-width: 736px) {

@@ -1,4 +1,5 @@
 import React from "react";
+import { StaticImage } from 'gatsby-plugin-image'
 
 import {
     container,
@@ -9,6 +10,7 @@ import {
     subtitleContainer,
     subtitle,
     logoSection,
+    logo,
 } from "./clients.module.css"
 
 import { clientsHeadContent, clientsSubContent } from "../resources/strings.js";
@@ -27,6 +29,10 @@ const Clients = () => {
                         <p className={subtitle}>{clientsSubContent}</p>
                   </div>  
                 <div className={logoSection}>
+                    <div className={logo}><StaticImage alt="Client Logo 1" src="../images/clientlogos/casio.png" /></div>
+                    <div className={logo}><StaticImage alt="Client Logo 2" src="../images/clientlogos/ibm.png" /></div>
+                    <div className={logo}><StaticImage alt="Client Logo 3" src="../images/clientlogos/apollo.png" /></div>
+                    <div className={logo}><StaticImage alt="Client Logo 4" src="../images/clientlogos/maxbupa.jpg" /></div>
                 </div>
             </div>
         </div>

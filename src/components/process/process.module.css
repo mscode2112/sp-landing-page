@@ -61,16 +61,37 @@
 .process-step {
     text-align: left;
     padding-left: 1rem;
+    transition: transform .5s;
+}
+
+.process-step:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .process-step-6 {
     text-align: left;
     padding-left: 1rem;
+    transition: transform .5s;
 }
 
 .process-step-7 {
     text-align: left;
     padding-left: 1rem;
+    transition: transform .5s;
+}
+
+.process-step-6:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.process-step-7:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .rectangle-odd {

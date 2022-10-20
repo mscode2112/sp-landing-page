@@ -50,10 +50,18 @@ const Footer = () => {
             <br/><br/>
             <div className={socialMediaSection}>
               <div className={socialMediaBox}>
-                <StaticImage className={icon} alt="Facebook Icon" src="../../images/facebook icon.svg"></StaticImage>
-                <StaticImage className={icon} alt="Instagram Icon" src="../../images/instagram icon.svg"></StaticImage>
-                <StaticImage className={icon} alt="Linkedin Icon" src="../../images/linkedin icon.svg"></StaticImage>
-                <StaticImage className={icon} alt="Youtube Icon" src="../../images/youtube icon.svg"></StaticImage>
+                <a href="https://www.facebook.com/sociopixels/">
+                  <StaticImage className={icon} alt="Facebook Icon" src="../../images/facebook icon.svg"></StaticImage>
+                </a>
+                <a href="https://www.instagram.com/sociopixels/">
+                  <StaticImage className={icon} alt="Instagram Icon" src="../../images/instagram icon.svg"></StaticImage>
+                </a>
+                <a href="https://www.linkedin.com/company/sociopixels/">
+                  <StaticImage className={icon} alt="Linkedin Icon" src="../../images/linkedin icon.svg"></StaticImage>
+                </a>
+                <a href="https://www.youtube.com/channel/UCBos1ikwA3mBdZPMoqACLHg/videos">
+                  <StaticImage className={icon} alt="Youtube Icon" src="../../images/youtube icon.svg"></StaticImage>
+                </a>
               </div>
             </div>
           </div>
