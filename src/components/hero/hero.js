@@ -19,7 +19,6 @@ import {
     showreelArea,
     showreelButton,
     showreelText,
-    videoContainer,
 } from "./hero.module.css";
 import { headlineContent, subHeadlineContent } from "../../resources/strings.js"
 

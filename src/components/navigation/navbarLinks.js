@@ -5,11 +5,11 @@ import { NavItem, QuoteButton } from './navbarLinks.styled'
 const NavbarLinks = () => {
   return (
     <>
-      <NavItem to="/">Home</NavItem>
-      <NavItem to="#portfolio">Our Work</NavItem>
-      <NavItem to="#process">Process</NavItem>
-      <NavItem to="#testimonials">Reviews</NavItem>
-      <QuoteButton to="#footer">GET A QUOTE</QuoteButton>
+      <NavItem to="/"><h4>Home</h4></NavItem>
+      <NavItem to="#portfolio"><h4>Our Work</h4></NavItem>
+      <NavItem to="#process"><h4>Process</h4></NavItem>
+      <NavItem to="#testimonials"><h4>Reviews</h4></NavItem>
+      <QuoteButton to="#footer"><h4>GET A QUOTE</h4></QuoteButton>
     </>
   )
 }

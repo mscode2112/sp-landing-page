@@ -5,7 +5,7 @@
 }
 
 .inner-container {
-    max-width: 1500px;
+    max-width: var(--max-width-default);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -53,7 +53,6 @@
 
 .process-steps {
     display: grid;
-    max-width: 1500px;
     margin: 0 auto;
     grid-template-columns: repeat(7, 1fr);
 } 
@@ -150,7 +149,7 @@
     color: var(--gray);
 }
 
-@media (min-width: 320px) and (max-width: 736px) {  
+@media screen and (min-width: 320px) and (max-width: 736px) {  
     .subtitle-container {
         width: 100%;
     }
@@ -214,5 +213,11 @@
         align-items: start;
         padding-left: 1rem;
         background: white;
+    }
+}
+
+@media (min-width: 2560px) {
+    .inner-container {
+        max-width: var(--max-width-medium-display);
     }
 }

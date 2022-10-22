@@ -4,9 +4,10 @@
 }
 
 .inner-container {
+    max-width: var(--max-width-medium-display);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: auto;
     margin: 0 auto;
 }
 
@@ -27,7 +28,7 @@
 }
 
 .text-section {
-    grid-row-start: 1;
+    grid-row: 1 / 4;
     padding: 2% 10% 10% 30%;
 }
 
@@ -48,7 +49,7 @@
 .footer-text {
     white-space: pre-line;
     color: var(--white);
-    line-height: 40px;
+    line-height: 2.1rem;
 }
 
 .text-separator {
@@ -84,6 +85,7 @@
     grid-row-start: 1;
     z-index: 10;
     padding: 2% 25% 10% 10%;
+    padding: 1rem 14rem 0 6rem;
 }
 
 .form-section {
@@ -145,6 +147,10 @@
         padding-left: 5%;
     }
 
+    .footer-text {
+        line-height: 1.4rem;
+    }
+
     .form-container {
         grid-column: 1 / 2;
         grid-row-start: 2;
@@ -163,7 +169,6 @@
     .contact-section {
         grid-column-start: 1;
         grid-row-start: 1;
-        padding-top: 30px;
         padding-left: 30px;
     }
 
@@ -178,6 +183,9 @@
 @media (min-width: 738px) and (max-width: 1112px) {
     .text-section {
         padding: 2% 2% 20% 10%;
+    }
+    .text-box {
+        padding-right: 0;
     }
     .contact-section {
         padding-left: 20%;

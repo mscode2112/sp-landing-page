@@ -19,7 +19,7 @@ const BestInvestment = () => {
       <div className={innerContainer}>
         <div className={imageSection}>
             <div className={sectionImage}>
-              <StaticImage alt="Image for Animated Explainer Videos are your Best Investment Section" src="../../images/section 2 graphic.svg"/>
+              <StaticImage alt="Image for Animated Explainer Videos are your Best Investment Section" src="../../images/section 2 graphic.png"/>
             </div>
         </div>
         <div className={textSection}>

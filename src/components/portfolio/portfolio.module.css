@@ -6,7 +6,7 @@
     background: white;
 }
 .inner-container {
-    max-width: 1500px;
+    max-width: var(--max-width-default);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -59,7 +59,6 @@
 
 .video-section {
     display: grid;
-    max-width: 1500px;
     grid-gap: 20px;
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
@@ -139,4 +138,10 @@
     .video-section {
         grid-template-columns: repeat(2, 1fr);
     }
-}    
+}   
+
+@media (min-width: 2560px) {
+    .inner-container {
+        max-width: var(--max-width-large-display);
+    }
+}

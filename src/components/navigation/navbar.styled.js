@@ -23,6 +23,7 @@ export const Navigation = styled.nav`
   z-index: 2;
   align-self: center;
 
+  
   @media (max-width: 768px) {
     position: sticky;
     height: 8vh;

@@ -29,7 +29,6 @@ const Layout = () => {
        <BestInvestment/>
        <Clients/>
        <Testimonials/>
-       {/* <Faqs/> */}
        <Footer/>
       </main>
     </div>

@@ -4,16 +4,27 @@
     --orange: #EF5026;
     --light-orange: #FFD5C1;
     --gray: #757575;
+    --max-width-default: 1500px;
+    --max-width-medium-display: 2000px;
+    --max-width-large-display: 2500px;
+    
+    --bp-small: 768px;
+    --bp-medium: 1024px;
+    --bp-large: 1366px;
+    --bp-xlarge: 1920px;
+    --bp-xxlarge: 2560px;
 }
+
 html {
-    font-size: calc(13px + 0.390625vw);
+    /* font-size: calc(13px + 0.390625vw); */
+    font-size: 1.2em;
 }
 
 h1 {
     font-family: 'Coda', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.3rem;
+    font-size: 2.3em;
 }
 
 h2 {
@@ -31,29 +42,35 @@ h3 {
 }
 
 p {
-    font-family: 'Lato Regular', sans-serif;
+    font-family: 'Montserrat Regular', sans-serif;
     font-style: normal;
     font-weight: 400;
+    font-size: 0.9em;
+}
+
+h4 {
+    font-family: 'Montserrat Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 0.9rem;
 }
 
 b {
-    font-family: 'Lato Regular', sans-serif;
+    font-family: 'Montserrat Regular', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 0.9rem;
 }
 
 strong {
-    font-family: 'Lato Bold', sans-serif;
+    font-family: 'Montserrat Bold', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 0.9rem;
-    padding-top: 20px;
 }
 
 button {
-    width: 180px;
+    width: 9.5rem;
     height: 45px;
     border: 0;
     background-color: var(--orange);
@@ -61,7 +78,22 @@ button {
 }
 
 @media (min-width: 320px) and (max-width: 748px) {
+    h2 {
+        font-size: 1.4rem;
+    }
+    h3 {
+        font-size: 0.9rem;
+    }
+    p {
+        font-size: 0.7rem;
+    }
+    b {
+        font-size: 0.7rem;
+    }
+    strong {
+        font-size: 0.8rem;
+    }
     button {
-        width: 140px;
+        width: 8.5rem;
     }
 }    
