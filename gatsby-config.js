@@ -23,6 +23,15 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "sociopixelslandingpagebucket",
+        protocol: "http",
+        hostname: "www.sociopixels.com.au",
+      }
+  }
+
   ]
 };

@@ -99,8 +99,15 @@
 }
 
 @media (min-width: 320px) and (max-width: 736px) {
+    .container {
+        margin-top: -18%;
+    }
+    .inner-container {
+        padding-bottom: 0;
+    }
     .text-section{
         padding-left: 5%;
+        border: 10px solid var(--light-orange);
         background: var(--white);
     }
     .head-text {

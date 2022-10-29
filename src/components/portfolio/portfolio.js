@@ -1,6 +1,4 @@
 import React from "react";
-import * as ReactDOM from 'react-dom';
-import { navigate } from 'gatsby';
 import { useStaticQuery, graphql } from 'gatsby'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import {
@@ -23,8 +21,6 @@ import {
 import { portfolioContent } from "../../resources/strings.js"
 import styled from "styled-components";
 import * as lity from 'lity';
-import '../../lity-2.4.1/assets/style.css';
-import '../../lity-2.4.1/dist/lity.css';
 import Portfolio2 from "./portfolio2";
 
 const VideoCard = styled.div`
@@ -66,7 +62,8 @@ const Portfolio = () => {
         portfolioArray.push(
             <VideoCard key={edge.node.id}>
                 <div role="button" tabIndex={0} 
-                    onClick={() => { lity(edge.node.link); }}>
+                    onClick={() => { lity(edge.node.link); }}
+                    >
                     <GatsbyImage className={videoImage} 
                         alt={edge.node.alt} 
                         image={image}

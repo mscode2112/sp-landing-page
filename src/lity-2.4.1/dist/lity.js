@@ -3,11 +3,11 @@
 * Copyright (c) 2015-2020 Jan Sorgalla; Licensed MIT */
 (function(window, factory) {
     if (typeof define === 'function' && define.amd) {
-        define(['jquery'], function($) {
+        define(['jQuery'], function($) {
             return factory(window, $);
         });
     } else if (typeof module === 'object' && typeof module.exports === 'object') {
-        module.exports = factory(window, require('jquery'));
+        module.exports = factory(window, require('jQuery'));
     } else {
         window.lity = factory(window, window.jQuery || window.Zepto);
     }

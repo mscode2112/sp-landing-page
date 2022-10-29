@@ -14,7 +14,7 @@
     "node"
   ],
   "dependencies": {
-    "jquery": ">=1.7"
+    "jQuery": ">=1.7"
   },
   "keywords": [
     "lightbox",
@@ -25,9 +25,9 @@
     "accessible",
     "accessibility",
     "a11y",
-    "jquery",
-    "jquery-plugin",
-    "ecosystem:jquery"
+    "jQuery",
+    "jQuery-plugin",
+    "ecosystem:jQuery"
   ],
   "license": "MIT",
   "homepage": "http://sorgalla.com/lity/",

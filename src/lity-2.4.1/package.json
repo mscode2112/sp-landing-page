@@ -10,7 +10,7 @@
   "version": "2.4.1",
   "main": "dist/lity.js",
   "peerDependencies": {
-    "jquery": ">=1.7"
+    "jQuery": ">=1.7"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.1",
@@ -36,9 +36,9 @@
     "accessible",
     "accessibility",
     "a11y",
-    "jquery",
-    "jquery-plugin",
-    "ecosystem:jquery"
+    "jQuery",
+    "jQuery-plugin",
+    "ecosystem:jQuery"
   ],
   "license": "MIT",
   "bugs": {

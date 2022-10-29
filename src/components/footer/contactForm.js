@@ -11,6 +11,10 @@ import {
 } from "./contactForm.module.css";
 
 export const ContactForm = () => {
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log("Sending email");
+    }
     return (
         <div className={container}>
             <div className={innerContainer}>
@@ -24,7 +28,7 @@ export const ContactForm = () => {
                             <input className={inputBox} type="text" name="phone" id="phone" placeholder="Your Phone"/>
                             <textarea className={inputBox} name="message" id="message" rows="5" placeholder="How can we help you?"/>
                             <div className={buttonContainer}>
-                                <button className={submitButton}><strong>SUBMIT</strong></button>
+                                <button className={submitButton} onClick={handleSubmit}><strong>SUBMIT</strong></button>
                             </div>
                         </div>
                     </div>

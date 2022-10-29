@@ -1,16 +1,17 @@
 import React from "react";
-import { StaticImage } from 'gatsby-plugin-image'
 import { navigate } from "gatsby";
 import * as lity from 'lity';
 import '../../lity-2.4.1/assets/style.css';
 import '../../lity-2.4.1/dist/lity.css';
+import HeroVideo from "../../images/videos/Hero.mp4";
 
 import {
     hero,
     innerHero,
     leftHero,
     rightHero,
-    heroImage,
+    heroVideo,
+    watchVideo,
     textSection,
     headline,
     subheadline,
@@ -21,6 +22,7 @@ import {
     showreelText,
 } from "./hero.module.css";
 import { headlineContent, subHeadlineContent } from "../../resources/strings.js"
+import WatchMeVideo from "../../images/videos/WatchMe.mp4";
 
 const Hero = () => {
   return (
@@ -38,16 +40,20 @@ const Hero = () => {
             </button>
             <div className={showreelArea}>
               <div className={showreelButton} 
-                    onClick={() => { lity('https://youtu.be/embed/KeHw6RJAdr0');}}
+                    onClick={() => { lity('https://vimeo.com/763654563');}}
                     >
-                      <StaticImage alt="Play Button for showreel" src="../../images/Watchme.svg" /> 
+                      <video className={watchVideo} loop autoPlay muted src={WatchMeVideo}>
+                      </video>
               </div>
-              <div className={showreelText}><b>Watch Me</b></div>
+              <div className={showreelText}><b>WATCH ME</b></div>
             </div>
           </div>
         </div>
         <div className={rightHero}>
-          <div className={heroImage}><StaticImage alt="Hero image" src="../../images/Header Graphic.svg" /></div>
+          <div>
+            <video className={heroVideo} loop autoPlay muted src={HeroVideo}>
+            </video>
+          </div>
         </div>
       </div>
     </div>

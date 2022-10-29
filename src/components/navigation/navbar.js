@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { navigate } from "gatsby";
 import NavbarLinks from './navbarLinks'
 import { StaticImage } from 'gatsby-plugin-image'
 
@@ -15,8 +16,8 @@ const Navbar = () => {
 
   return (
     <Navigation>
-      <LogoWrap>
-        <StaticImage alt="SocioPixels Logo" src="../../images/Logo-2020-Full.png" />
+      <LogoWrap onClick={() => { navigate("#")}} >
+        <StaticImage alt="SocioPixels Logo" src="../../images/Logo-2020-Full.png"/>
       </LogoWrap>  
       <Toggle
         navbarOpen={navbarOpen}

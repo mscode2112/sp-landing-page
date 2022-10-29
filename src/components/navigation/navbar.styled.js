@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const LogoWrap = styled.div`
   margin: auto 0;
   flex: 0 1 200px;
+  cursor: pointer;
 
   @media (max-width: 768px) and (orientation: landscape) {
     flex: 0 1 25px;
@@ -25,12 +26,15 @@ export const Navigation = styled.nav`
 
   
   @media (max-width: 768px) {
-    position: sticky;
     height: 8vh;
     top: 0;
     left: 0;
     right: 0;
     left: 0;
+  }
+
+  @media (max-width: 1112px) {
+    padding: 0 1vw;
   }
 `
 

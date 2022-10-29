@@ -7,20 +7,19 @@ import {
     sectionTextHeadPart2,
     sectionTextSub,
     imageSection,
-    sectionImage,
+    sectionVideo,
 } from "./bestInvestment.module.css"
 
 import { bestInvestmentTitlePart1, bestInvestmentTitlePart2, bestInvestmentContent } from "../../resources/strings";
-import { StaticImage } from "gatsby-plugin-image";
+import SectionVideo from "../../images/videos/BestInvestment.mp4";
 
 const BestInvestment = () => {
   return (
     <div className={container}>
       <div className={innerContainer}>
         <div className={imageSection}>
-            <div className={sectionImage}>
-              <StaticImage alt="Image for Animated Explainer Videos are your Best Investment Section" src="../../images/section 2 graphic.png"/>
-            </div>
+            <video className={sectionVideo} loop autoPlay muted src={SectionVideo} type="video/mp4">
+            </video>
         </div>
         <div className={textSection}>
           <h2>

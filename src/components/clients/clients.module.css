@@ -7,7 +7,7 @@
     max-width: var(--max-width-default);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
     margin: 0 auto;
 }
 
@@ -41,13 +41,13 @@
     display: grid;
     max-width: 1500px;
     justify-items: center;
-    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 30px;
     margin: 0 auto;
-    background: var(--light-orange);
+    background: var(--white);
 }
 
-.logo {
+.logo-image {
     max-width: 100%;
     height: auto;
 }
@@ -55,5 +55,9 @@
 @media (min-width: 320px) and (max-width: 736px) {
     .subtitle-container {
         width: 90%;
+    }
+    .logo-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
     }
 }

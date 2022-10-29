@@ -1,5 +1,5 @@
 .container {
-    background: #FFD5C1;
+    background: var(--light-orange);
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -20,7 +20,7 @@
     text-align: center;
 }
 
-.section-image {
+.section-video {
     max-width: 100%;
     height: auto;
 }
@@ -81,3 +81,4 @@
         padding: 0 15% 5% 0;
     }
 }
+

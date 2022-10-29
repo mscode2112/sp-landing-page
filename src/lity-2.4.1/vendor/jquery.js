@@ -10304,7 +10304,7 @@
 // https://github.com/jrburke/requirejs/wiki/Updating-existing-libraries#wiki-anon
 
     if ( typeof define === "function" && define.amd ) {
-        define( "jquery", [], function() {
+        define( "jQuery", [], function() {
             return jQuery;
         });
     }
