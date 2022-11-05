@@ -7,16 +7,9 @@
     --max-width-default: 1500px;
     --max-width-medium-display: 2000px;
     --max-width-large-display: 2500px;
-    
-    --bp-small: 768px;
-    --bp-medium: 1024px;
-    --bp-large: 1366px;
-    --bp-xlarge: 1920px;
-    --bp-xxlarge: 2560px;
 }
 
 html {
-    /* font-size: calc(13px + 0.390625vw); */
     font-size: 1.2em;
 }
 

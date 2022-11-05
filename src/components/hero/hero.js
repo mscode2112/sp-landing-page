@@ -3,7 +3,6 @@ import { navigate } from "gatsby";
 import * as lity from 'lity';
 import '../../lity-2.4.1/assets/style.css';
 import '../../lity-2.4.1/dist/lity.css';
-import HeroVideo from "../../images/videos/Hero.mp4";
 
 import {
     hero,
@@ -21,7 +20,8 @@ import {
     showreelButton,
     showreelText,
 } from "./hero.module.css";
-import { headlineContent, subHeadlineContent } from "../../resources/strings.js"
+import { headlineContent, subHeadlineContent } from "../../resources/strings.js";
+import HeroVideo from "../../images/videos/Hero3.mp4";
 import WatchMeVideo from "../../images/videos/WatchMe.mp4";
 
 const Hero = () => {
@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </div>
         <div className={rightHero}>
-          <div>
+          <div onClick={() => { lity('https://vimeo.com/763654563');}}>
             <video className={heroVideo} loop autoPlay muted src={HeroVideo}>
             </video>
           </div>
