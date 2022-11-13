@@ -1,6 +1,5 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import * as lity from 'lity';
 
 import {
     container,
@@ -32,7 +31,7 @@ const Testimonials = () => {
                             <div className={videoImage} 
                                 role="button" 
                                 tabIndex={0} 
-                                onClick={() => { lity('https://vimeo.com/763655966');}}
+                                // onClick={() => { lity('https://vimeo.com/763655966');}}
         
                             >
                                 <StaticImage alt="Client testimonial 1" src="../../images/thumbnails/testimonial-RodBerger.png"/>
@@ -43,7 +42,7 @@ const Testimonials = () => {
                             <div className={videoImage} 
                                 role="button" 
                                 tabIndex={0} 
-                                onClick={() => { lity('https://vimeo.com/763655480');}}
+                                // onClick={() => { lity('https://vimeo.com/763655480');}}
                             >
                                 <StaticImage alt="Client testimonial 2" src="../../images/thumbnails/testimonial-CJ.png"/>
                                 <div className={playButton}></div>
@@ -53,7 +52,7 @@ const Testimonials = () => {
                             <div className={videoImage} 
                                 role="button" 
                                 tabIndex={0} 
-                                onClick={() => { lity('https://vimeo.com/763655455');}}
+                                // onClick={() => { lity('https://vimeo.com/763655455');}}
                             >
                                 <StaticImage alt="Client testimonial 3" src="../../images/thumbnails/testimonial-GB.png"/>
                                 <div className={playButton}></div>

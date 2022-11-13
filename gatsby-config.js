@@ -11,6 +11,10 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-transformer-json",
     {
+      resolve: 'gatsby-plugin-exclude',
+      options: { paths: ['/static/**'] },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,

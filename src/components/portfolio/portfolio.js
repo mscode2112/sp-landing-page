@@ -20,7 +20,6 @@ import {
 } from "./portfolio.module.css";
 import { portfolioContent } from "../../resources/strings.js"
 import styled from "styled-components";
-import * as lity from 'lity';
 import Portfolio2 from "./portfolio2";
 
 const VideoCard = styled.div`
@@ -62,7 +61,7 @@ const Portfolio = () => {
         portfolioArray.push(
             <VideoCard key={edge.node.id}>
                 <div role="button" tabIndex={0} 
-                    onClick={() => { lity(edge.node.link); }}
+                    // onClick={() => { lity(edge.node.link); }}
                     >
                     <GatsbyImage className={videoImage} 
                         alt={edge.node.alt} 
