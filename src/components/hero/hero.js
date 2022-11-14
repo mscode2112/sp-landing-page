@@ -9,10 +9,12 @@ import {
     leftHero,
     rightHero,
     heroVideo,
+    heroVideoMobile,
     watchVideo,
     textSection,
     headline,
     subheadline,
+    subheadlineMobile,
     buttonContainer,
     quoteButton,
     showreelArea,
@@ -23,9 +25,10 @@ import {
     responsiveIframe,
     modalCloseButton,
 } from "./hero.module.css";
-import { headlineContent, subHeadlineContent } from "../../resources/strings.js";
+import { headlineContent, subHeadlineContent, subHeadlineContentMobile } from "../../resources/strings.js";
 import HeroVideo from "../../images/videos/Hero3.mp4";
 import WatchMeVideo from "../../images/videos/WatchMe.mp4";
+import ShowreelVideo from "../../images/videos/SocioPixels Showreel 2022.mp4";
 
 const Hero = () => {
 
@@ -40,6 +43,7 @@ const Hero = () => {
           <div className={textSection}>
             <h1 className={headline}>{headlineContent}</h1>
             <p className={subheadline}>{subHeadlineContent}</p>
+            <p className={subheadlineMobile}>{subHeadlineContentMobile}</p>
           </div>
           <div className={buttonContainer}>
             <button className={quoteButton}
@@ -76,6 +80,8 @@ const Hero = () => {
         <div className={rightHero}>
           <div>
             <video className={heroVideo} loop autoPlay muted src={HeroVideo}>
+            </video>
+            <video className={heroVideoMobile} loop autoPlay muted src={ShowreelVideo}>
             </video>
           </div>
         </div>

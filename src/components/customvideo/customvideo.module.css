@@ -106,20 +106,26 @@
         padding-bottom: 0;
     }
     .text-section{
-        padding-left: 5%;
-        border: 10px solid var(--light-orange);
+        padding-left: 10%;
+        border: 20px solid var(--light-orange);
         background: var(--white);
     }
     .head-text {
         white-space: normal;
     }
     .sub-text{
-        padding-right: 2%;
+        padding-right: 10%;
         white-space: pre-line;
     }
-    .icon3 {
-        padding-top: 25%;
+    .icon-section {
+        padding-left: 10%;
+        padding-right: 0;
+        row-gap: 0;
+        text-align: left;
     }
+    .icon {
+        width: 60%;
+    }    
 }
 
 @media (min-width: 738px) and (max-width: 1112px) {
