@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { navigate } from "gatsby";
 import NavbarLinks from './navbarLinks'
 import { StaticImage } from 'gatsby-plugin-image'
+import { useBetween } from 'use-between';
 
 import {
   LogoWrap,
@@ -11,8 +12,16 @@ import {
   NavBox,
 } from './navbar.styled'
 
-const Navbar = () => {
-  const [navbarOpen, setNavbarOpen] = useState(false)
+export const useShareableState = () => {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+  return {
+    navbarOpen, setNavbarOpen
+  }
+}
+export const useSharedState = () => useBetween(useShareableState)
+export const Navbar = () => {
+  
+  const { navbarOpen, setNavbarOpen } = useSharedState();
 
   return (
     <Navigation>
@@ -27,7 +36,7 @@ const Navbar = () => {
       </Toggle>
       {navbarOpen ? (
         <NavBox>
-          <NavbarLinks />
+          <NavbarLinks/>
         </NavBox>
       ) : (
         <NavBox open>

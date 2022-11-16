@@ -107,7 +107,7 @@
     }
     .text-section{
         padding-left: 10%;
-        border: 20px solid var(--light-orange);
+        border: 10px solid var(--light-orange);
         background: var(--white);
     }
     .head-text {
