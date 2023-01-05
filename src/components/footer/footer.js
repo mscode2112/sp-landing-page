@@ -47,7 +47,6 @@ const Footer = () => {
             <div className={formSection}>
                 <ContactForm/>
             </div>
-            <br/><br/>
             <div className={socialMediaSection}>
               <div className={socialMediaBox}>
                 <a href="https://www.facebook.com/sociopixels/">

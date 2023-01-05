@@ -36,13 +36,23 @@ export const Navigation = styled.nav`
   @media (max-width: 1112px) {
     padding: 0 1vw;
   }
+
+ @media (max-width: 1112px) and (orientation: landscape) {
+    height: 14vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+  } 
+
+  
 `
 
 export const Toggle = styled.div`
   display: none;
   height: 100%;
   cursor: pointer;
-  padding: 0 10vw;
+  padding: 0 2vw;
 
   @media (max-width: 768px) {
     display: flex;

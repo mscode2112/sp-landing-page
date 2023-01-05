@@ -30,20 +30,7 @@
 .title-part2 {
     line-height: 40px;
     letter-spacing: -0.5px;
-    color: var(--gray);
-    text-decoration-line: line-through;
-}
-
-.title-part3 {
-    line-height: 40px;
-    letter-spacing: -0.5px;
     color: var(--orange);
-}
-
-.title-part4 {
-    line-height: 40px;
-    letter-spacing: -0.5px;
-    color: var(--black);
 }
 
 .subtitle-container {
@@ -86,9 +73,10 @@
     height: 60px;
     top: 40%;
     left: 40%;
-    z-index: 9;
+    /* z-index: 9; */
     background: url(../../images/Play\ Button.svg);
 }
+
 
 .button-container {
     display: grid;

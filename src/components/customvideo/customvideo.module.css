@@ -118,7 +118,7 @@
         white-space: pre-line;
     }
     .icon-section {
-        padding-left: 10%;
+        /* padding-left: 10%; */
         padding-right: 0;
         row-gap: 0;
         text-align: left;

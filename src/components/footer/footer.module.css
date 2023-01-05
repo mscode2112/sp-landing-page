@@ -21,7 +21,7 @@
 }
 
 .wrapper-bottom {
-    max-height: 280px;
+    max-height: 480px;
     grid-row: 4 / 6;
     background: var(--light-orange);
     display: grid;
@@ -79,13 +79,19 @@
     max-width: 35px;
     height: auto;
     cursor: pointer;
+    transition: transform .5s;
+}
+
+.icon:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .form-container {
     grid-row-start: 1;
-    z-index: 10;
+    z-index: 1;
     padding: 2% 25% 10% 10%;
-    padding: 1rem 14rem 0 6rem;
 }
 
 .form-section {
@@ -101,6 +107,7 @@
     column-gap: 20px;
     justify-content: center;
     padding-left: 5%;
+    padding-top: 5%;
 }
 
 .copyright-section {
@@ -125,6 +132,7 @@
 @media (min-width: 320px) and (max-width: 736px) {
     .inner-container {
         grid-template-rows: 2fr 2fr 2fr 2fr 1fr 2fr;
+        background: var(--light-orange);
     }
 
     .wrapper-top {
@@ -164,6 +172,7 @@
 
     .social-media-box {
         padding-left: 0;
+        padding-top: 8%;
     }
 
     .contact-section {

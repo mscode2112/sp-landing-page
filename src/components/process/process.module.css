@@ -181,6 +181,12 @@
         text-align: left;
         padding-left: 0;
     }
+    .process-step-6 {
+        padding-left: 0;
+    }
+    .process-step-7 {
+        padding-left: 0;
+    }
 }
 
 @media (min-width: 738px) and (max-width: 1112px) {

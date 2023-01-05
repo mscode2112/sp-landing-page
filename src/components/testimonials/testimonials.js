@@ -1,5 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import { useBetween } from 'use-between';
 
 import {
     container,
@@ -13,8 +14,20 @@ import {
     videoImage,
     playButton,
 } from "./testimonials.module.css";
+import VideoModal from "../videoModal/videoModal";
+
+export const useShareableState = () => {
+  const [videoModal3Open, setVideoModal3Open] = React.useState(false);
+  const [videoModal3Data, setVideoModal3Data] = React.useState(null);
+  
+  return {
+    videoModal3Open, setVideoModal3Open, videoModal3Data, setVideoModal3Data
+  }
+}
+export const useSharedVideoModal3State = () => useBetween(useShareableState)
 
 const Testimonials = () => {
+    const { setVideoModal3Open, videoModal3Data, setVideoModal3Data } = useSharedVideoModal3State();
     return (
         <>
         <div id="testimonials" className={container}>
@@ -31,8 +44,10 @@ const Testimonials = () => {
                             <div className={videoImage} 
                                 role="button" 
                                 tabIndex={0} 
-                                // onClick={() => { lity('https://vimeo.com/763655966');}}
-        
+                                onClick={() => {
+                                    setVideoModal3Data("https://player.vimeo.com/video/763655966");
+                                    setVideoModal3Open(true);
+                                }}
                             >
                                 <StaticImage alt="Client testimonial 1" src="../../images/thumbnails/testimonial-RodBerger.png"/>
                                 <div className={playButton}></div>
@@ -42,7 +57,10 @@ const Testimonials = () => {
                             <div className={videoImage} 
                                 role="button" 
                                 tabIndex={0} 
-                                // onClick={() => { lity('https://vimeo.com/763655480');}}
+                                onClick={() => {
+                                    setVideoModal3Data("https://player.vimeo.com/video/763655480");
+                                    setVideoModal3Open(true);
+                                }}
                             >
                                 <StaticImage alt="Client testimonial 2" src="../../images/thumbnails/testimonial-CJ.png"/>
                                 <div className={playButton}></div>
@@ -52,7 +70,10 @@ const Testimonials = () => {
                             <div className={videoImage} 
                                 role="button" 
                                 tabIndex={0} 
-                                // onClick={() => { lity('https://vimeo.com/763655455');}}
+                                onClick={() => {
+                                    setVideoModal3Data("https://player.vimeo.com/video/763655455");
+                                    setVideoModal3Open(true);
+                                }}
                             >
                                 <StaticImage alt="Client testimonial 3" src="../../images/thumbnails/testimonial-GB.png"/>
                                 <div className={playButton}></div>
@@ -60,9 +81,10 @@ const Testimonials = () => {
                         </div>      
                     </div>
                 </div>
-            </div>
+                <VideoModal/>
+            </div>    
         </div>  
-        </>  
+        </>
     );
 };
 

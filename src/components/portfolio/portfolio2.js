@@ -1,6 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from 'gatsby'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { useBetween } from 'use-between';
 import {
     container2,
     innerContainer,
@@ -10,6 +11,7 @@ import {
     playButton,
 } from "./portfolio.module.css";
 import styled from "styled-components";
+import VideoModal from "../videoModal/videoModal";
 
 const VideoCard = styled.div`
     position: relative;
@@ -18,7 +20,18 @@ const VideoCard = styled.div`
     cursor: pointer;
 `
 
+const useShareableState = () => {
+  const [videoModal2Open, setVideoModal2Open] = React.useState(false);
+  const [videoModal2Data, setVideoModal2Data] = React.useState(null);
+  return {
+    videoModal2Open, setVideoModal2Open, videoModal2Data, setVideoModal2Data
+  }
+}
+export const useSharedVideoModal2State = () => useBetween(useShareableState)
+
 const Portfolio2 = () => {
+    const { setVideoModal2Open, setVideoModal2Data } = useSharedVideoModal2State();
+
     const data = useStaticQuery(graphql`
             query MorePortfolioQuery {
                 allMorePortfolioJson {
@@ -44,7 +57,10 @@ const Portfolio2 = () => {
         portfolioArray.push(
             <VideoCard key={edge.node.id}>
                 <div role="button" tabIndex={0} 
-                    // onClick={() => { lity(edge.node.link); }}
+                    onClick={() => { 
+                        setVideoModal2Data(edge.node.link);
+                        setVideoModal2Open(true); 
+                    }}
                     >
                     <GatsbyImage className={videoImage} 
                         alt={edge.node.alt} 
@@ -67,6 +83,7 @@ const Portfolio2 = () => {
                 </div>
             </div>
         </div>
+        <VideoModal/>
     </div>        
   );
 };

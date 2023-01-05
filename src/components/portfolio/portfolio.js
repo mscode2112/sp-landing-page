@@ -1,6 +1,8 @@
 import React from "react";
 import { useStaticQuery, graphql } from 'gatsby'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { useBetween } from 'use-between';
+import "@reach/dialog/styles.css";
 import {
     container,
     innerContainer,
@@ -8,8 +10,6 @@ import {
     titleSection,
     titlePart1,
     titlePart2,
-    titlePart3,
-    titlePart4,
     subtitleContainer,
     subtitle,
     videoSection,
@@ -21,6 +21,7 @@ import {
 import { portfolioContent } from "../../resources/strings.js"
 import styled from "styled-components";
 import Portfolio2 from "./portfolio2";
+import VideoModal from "../videoModal/videoModal";
 
 const VideoCard = styled.div`
     position: relative;
@@ -29,9 +30,22 @@ const VideoCard = styled.div`
     cursor: pointer;
 `
 
+const useShareableState = () => {
+  const [videoModalOpen, setVideoModalOpen] = React.useState(false);
+  const [videoModalData, setVideoModalData] = React.useState(null);
+  return {
+    videoModalOpen, setVideoModalOpen, videoModalData, setVideoModalData
+  }
+}
+export const useSharedVideoModalState = () => useBetween(useShareableState)
+
+
 const Portfolio = () => {
+    const { setVideoModalOpen, setVideoModalData } = useSharedVideoModalState();
+
     const [visibleMoreWork, setVisibleMoreWork] = React.useState(false);
     const [visibleMoreWorkButton, setVisibleMoreWorkButton] = React.useState(true);
+
     function showMoreWork() {
         setVisibleMoreWork(true);
         setVisibleMoreWorkButton(false);
@@ -54,6 +68,8 @@ const Portfolio = () => {
                 }
             }    
     `)
+  
+
   function getPortfolio(data) {
     const portfolioArray = []
     data.allPortfolioJson.edges.map(edge => {
@@ -61,7 +77,10 @@ const Portfolio = () => {
         portfolioArray.push(
             <VideoCard key={edge.node.id}>
                 <div role="button" tabIndex={0} 
-                    // onClick={() => { lity(edge.node.link); }}
+                    onClick={() => { 
+                        setVideoModalData(edge.node.link);
+                        setVideoModalOpen(true);
+                     }}
                     >
                     <GatsbyImage className={videoImage} 
                         alt={edge.node.alt} 
@@ -70,6 +89,7 @@ const Portfolio = () => {
                     <div className={playButton}></div>
                 </div>
             </VideoCard>
+            
         )
         return portfolioArray
     });
@@ -81,10 +101,8 @@ const Portfolio = () => {
             <div className={wrapper}>
                 <div className={titleSection}>
                     <h2>
-                        <span className={titlePart1}>Our Work</span>
-                        <span className={titlePart2}> Speaks</span>
-                        <span className={titlePart3}> Animates</span>
-                        <span className={titlePart4}> For Us</span>
+                        <span className={titlePart1}>Allow Us To</span>
+                        <span className={titlePart2}> Illustrate</span>
                     </h2>
                     <div className={subtitleContainer}>
                         <p className={subtitle}>{portfolioContent}</p>
@@ -92,6 +110,10 @@ const Portfolio = () => {
                 </div>    
                 <div className={videoSection}>
                     {getPortfolio(data)}
+                </div>
+                <div>
+                <VideoModal/>
+                
                 </div>
                 {visibleMoreWorkButton &&
                     <div className={buttonContainer}>

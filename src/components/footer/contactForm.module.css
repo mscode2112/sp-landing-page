@@ -31,14 +31,18 @@
     text-align: center;
 }
 
+.field-wrapper {
+    position: relative;
+}
 .input-box {
+    width: 100%;
     font-family: 'Coda', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     border: 1px solid #939191;
-    padding-left: 4px;
+    border-radius: 5px;
 }
 
 .button-container {
@@ -54,6 +58,37 @@
     cursor: pointer;
 }
 
+.submit-button:hover {
+    background-color: var(--white);
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    transition: 0.7s;
+}
+
+.error-message {
+    padding: 8px 12px;
+    background-color: #f37c7b;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.error-below {
+    padding-top: 4px;
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    z-index: 10000001;
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
 
 @media (min-width: 320px) and (max-width: 736px) {
     .container {
