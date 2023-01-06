@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
+import { navigate } from "gatsby";
 
 import {
   container,
@@ -16,7 +17,6 @@ import {
   fieldWrapper,
   grecaptchaBadge,
 } from "./contactForm.module.css";
-import ThankYou from "./thankYou";
 import apiKey from "../../resources/emailkey";
 
 function useForm(initialState = {}, validations = [], onSubmit = () => {}) {
@@ -54,7 +54,6 @@ function validate(validations, values) {
 }
 
 export const ContactForm = () => {
-  const [showThankyou, setShowThankyou] = useState(false);
   const recaptchaRef = React.createRef();
   const initialState = { name: "", email: "", message: "" };
   const validations = [
@@ -62,7 +61,7 @@ export const ContactForm = () => {
     ({ email }) => isRequired(email) || { email: "E-mail is required" },
     ({ message }) => isRequired(message) || { message: "Message is required" },
   ];
-  const { values, isValid, errors, changeHandler, touched } = useForm(
+  const { values, errors, changeHandler, touched } = useForm(
     initialState,
     validations
   );
@@ -80,20 +79,20 @@ export const ContactForm = () => {
         )
         .then(
           (result) => {
-            setShowThankyou(true);
+            navigate('thankYou')
           },
           (error) => {
             alert("An error occurred, Please try again", error.text);
           }
         );
     }
+
   };
 
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>;
 
   return (
     <div className={container}>
-      {!showThankyou && (
         <div className={innerContainer}>
           <div>
             <h3 className={requestQuoteLabel}>Request a Quote</h3>
@@ -180,10 +179,6 @@ export const ContactForm = () => {
             </div>
           </div>
         </div>
-      )}
-      {/* {showThankyou && (
-                <Redirect to={'/thank-you'}/>
-            )} */}
     </div>
   );
 };
