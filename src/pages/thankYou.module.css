@@ -4,12 +4,13 @@
 }
 
 .inner-container {
-    max-width: 548px;
+    max-width: var(--max-width-default);
     height: auto;
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
+    display: grid;
 }
 
 .thank-you-text {
@@ -26,4 +27,34 @@
 
 .image {
     width: 100%;
+    padding-bottom: 10%;
+}
+
+.wrapper-bottom {
+    max-height: 480px;
+    background: var(--light-orange);
+    display: grid;
+    justify-content: center;
+}
+
+.contact-section {
+}
+
+.contact-box {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.contact-text {
+    line-height: 22px;
+    color: #253139;
+}
+
+.icon {
+    max-width: 35px;
+    height: auto;
+    cursor: pointer;
+    transition: transform .5s;
 }
