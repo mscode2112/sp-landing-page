@@ -26,15 +26,15 @@ const ThankYou = () => {
             <div className={wrapperBottom}>
                 <div className={contactSection}>
                     <div className={contactBox}>
-                        <StaticImage className={icon} alt="Call Icon" src="../../images/call 1.png"></StaticImage>
+                        <StaticImage className={icon} alt="Call Icon" src="../images/call 1.png"></StaticImage>
                         <p className={contactText}>{contactNumber}</p>
                     </div>
                     <div className={contactBox}>
-                        <StaticImage className={icon} alt="Mail Icon" src="../../images/mail icon.svg"></StaticImage>
+                        <StaticImage className={icon} alt="Mail Icon" src="../images/mail icon.svg"></StaticImage>
                         <p className={contactText}>{emailId}</p>
                     </div>
                     <div className={contactBox}>
-                        <StaticImage className={icon} alt="Location Icon" src="../../images/location icon.svg"></StaticImage>
+                        <StaticImage className={icon} alt="Location Icon" src="../images/location icon.svg"></StaticImage>
                         <p className={contactText}>{location}</p>
                     </div>
                 </div>

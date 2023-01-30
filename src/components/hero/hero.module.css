@@ -104,6 +104,10 @@
 .showreel-text {
     flex: 1;
     cursor: pointer;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
 }
 
 .modal-close-button {

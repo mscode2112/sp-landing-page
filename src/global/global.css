@@ -1,3 +1,4 @@
+
 :root {
     --white: #FFFFFF;
     --black: #253139;
@@ -48,11 +49,18 @@ h4 {
     font-size: 0.9rem;
 }
 
-b {
+h5 {
     font-family: 'Montserrat Regular', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+}
+
+b {
+    font-family: 'Montserrat Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 strong {
@@ -60,6 +68,11 @@ strong {
     font-style: normal;
     font-weight: 700;
     font-size: 0.9rem;
+}
+
+em {
+    font-style: normal;
+    color: var(--orange);
 }
 
 button {
