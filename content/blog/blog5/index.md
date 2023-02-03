@@ -1,6 +1,6 @@
 ---
 path: "/blog5"
-title: "Google loves a video on your website. Do you?"
+title: "Google Loves Videos on your website. Do you?"
 date: "15 December 2022"
 featuredimage: 
     src: "./blog5.png"
@@ -60,5 +60,3 @@ In conclusion, optimizing your video content for better visibility on Google is 
 To sum up, videos can be a powerful tool for improving a website's search engine ranking and driving more traffic to the site. Google's algorithm considers the number of views, engagement, and overall relevance of a video to determine its ranking. Optimizing video content for better visibility on Google can include transcribing the video and adding the transcript to the website, using relevant keywords in the video title, description, and tags, and embedding the video on a page optimized for search engines. Additionally, videos are more shareable than text content, which can help increase the number of backlinks to a website and improve its search engine ranking.
 
 Uncover insights and drive action through video marketing. Now is the time!
-
-

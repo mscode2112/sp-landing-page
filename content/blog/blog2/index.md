@@ -37,4 +37,4 @@ Relying on freelance websites also has pitfalls like a lack of team understandin
 
 To sum it up, there are resources all over the place, and it sounds tempting to lap things up and get going. But astute business thinking makes for trusting professionals with their core expertise while you strengthen your own! 
 
-Check out some compelling examples of Animated Explainer Videos <a href="../#portfolio"><em>here</em></a> !
+Check out some compelling examples of Animated Explainer Videos <a href="../#portfolio"><em>here</em></a>
