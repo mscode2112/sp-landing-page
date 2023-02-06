@@ -5,6 +5,7 @@ module.exports = {
     siteUrl: `https://www.sociopixels.com.au`,
   },
   plugins: [
+    "gatsby-plugin-postcss",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-anchor-links",
     "gatsby-plugin-styled-components",

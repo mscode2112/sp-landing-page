@@ -1,0 +1,42 @@
+.post {
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.post-title {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.post-date {
+    font-size: 0.8em;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post a {
+    background-color: white;
+    color: var(--orange);
+    text-decoration: none;
+    margin-top: 16px;
+    display: inline-block;
+}
+@media (min-width: 320px) and (max-width: 736px) {
+    .post-description {
+        font-size: 0.8em;
+    }
+    .post-date {
+        font-size: 0.6em;
+    }
+}
+
+@media (min-width: 738px) and (max-width: 1112px) {
+    .post-description {
+        font-size: 0.8em;
+    }
+    .post-date {
+        font-size: 0.6em;
+    }
+}

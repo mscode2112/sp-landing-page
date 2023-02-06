@@ -1,4 +1,7 @@
 
+@tailwind components;
+@tailwind utilities;
+
 :root {
     --white: #FFFFFF;
     --black: #253139;
