@@ -79,106 +79,107 @@ export const ContactForm = () => {
         )
         .then(
           (result) => {
-            navigate('thankYou')
+            navigate("thankYou");
           },
           (error) => {
             alert("An error occurred, Please try again", error.text);
           }
         );
     }
-
   };
 
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>;
 
   return (
     <div className={container}>
-        <div className={innerContainer}>
-          <div>
-            <h3 className={requestQuoteLabel}>Request a Quote</h3>
-            <div className={inputForm}>
-              <form ref={formData} onSubmit={submitHandler} className={form}>
-                <div className={fieldWrapper}>
-                  <input
-                    className={inputBox}
-                    type="text"
-                    name="name"
-                    id="name"
-                    required
-                    value={values.name}
-                    placeholder="Your Name*"
-                    onChange={changeHandler}
-                  />
-                  {touched.name && errors.name && (
-                    <div className={errorBelow}>
-                      <div className={errorMessage}>{errors.name}</div>
-                    </div>
-                  )}
-                </div>
-                <div className={fieldWrapper}>
-                  <input
-                    className={inputBox}
-                    type="email"
-                    name="email"
-                    id="email"
-                    required
-                    value={values.email}
-                    placeholder="Your Email*"
-                    onChange={changeHandler}
-                  />
-                  {touched.email && errors.email && (
-                    <div className={errorBelow}>
-                      <div className={errorMessage}>{errors.email}</div>
-                    </div>
-                  )}
-                </div>
+      <div className={innerContainer}>
+        <div>
+          <h3 className={requestQuoteLabel}>Request a Quote</h3>
+          <div className={inputForm}>
+            <form ref={formData} onSubmit={submitHandler} className={form}>
+              <div className={fieldWrapper}>
                 <input
                   className={inputBox}
                   type="text"
-                  name="website"
-                  id="website"
-                  placeholder="Your Website"
+                  name="name"
+                  id="name"
+                  required
+                  value={values.name}
+                  placeholder="Your Name*"
+                  onChange={changeHandler}
                 />
+                {touched.name && errors.name && (
+                  <div className={errorBelow}>
+                    <div className={errorMessage}>{errors.name}</div>
+                  </div>
+                )}
+              </div>
+              <div className={fieldWrapper}>
                 <input
                   className={inputBox}
-                  type="text"
-                  name="phone"
-                  id="phone"
-                  placeholder="Your Phone"
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  value={values.email}
+                  placeholder="Your Email*"
+                  onChange={changeHandler}
                 />
-                <div className={fieldWrapper}>
-                  <textarea
-                    className={inputBox}
-                    name="message"
-                    id="message"
-                    rows="5"
-                    required
-                    value={values.message}
-                    placeholder="How can we help you?*"
-                    onChange={changeHandler}
-                  />
-                  {touched.message && errors.message && (
-                    <div className={errorBelow}>
-                      <div className={errorMessage}>{errors.message}</div>
-                    </div>
-                  )}
-                </div>
-                <div className={grecaptchaBadge}>
-                  <ReCAPTCHA
-                    ref={recaptchaRef}
-                    size="invisible"
-                    sitekey="6LflQzUjAAAAAJVaFHPo00q1KllPhHXYdxSmeUY6"
-                  />
-                </div>
-                <div className={buttonContainer}>
-                  <button className={submitButton}>
-                    <strong>SUBMIT</strong>
-                  </button>
-                </div>
-              </form>
-            </div>
+                {touched.email && errors.email && (
+                  <div className={errorBelow}>
+                    <div className={errorMessage}>{errors.email}</div>
+                  </div>
+                )}
+              </div>
+              <input
+                className={inputBox}
+                type="text"
+                name="website"
+                id="website"
+                required
+                placeholder="Your Website*"
+              />
+              <input
+                className={inputBox}
+                type="text"
+                name="phone"
+                id="phone"
+                required
+                placeholder="Your Phone*"
+              />
+              <div className={fieldWrapper}>
+                <textarea
+                  className={inputBox}
+                  name="message"
+                  id="message"
+                  rows="5"
+                  required
+                  value={values.message}
+                  placeholder="How can we help you?*"
+                  onChange={changeHandler}
+                />
+                {touched.message && errors.message && (
+                  <div className={errorBelow}>
+                    <div className={errorMessage}>{errors.message}</div>
+                  </div>
+                )}
+              </div>
+              <div className={grecaptchaBadge}>
+                <ReCAPTCHA
+                  ref={recaptchaRef}
+                  size="invisible"
+                  sitekey="6LflQzUjAAAAAJVaFHPo00q1KllPhHXYdxSmeUY6"
+                />
+              </div>
+              <div className={buttonContainer}>
+                <button className={submitButton}>
+                  <strong>SUBMIT</strong>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
+      </div>
     </div>
   );
 };
