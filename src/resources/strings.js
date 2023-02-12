@@ -38,7 +38,7 @@ startups to SMEs, governments to NGOs.`;
 export const footerHeading = `We Would Love To Hear From You`;
 export const footerContent = `Are you ready to reap the benefits of an explainer video that sets you apart from your competition? `;
 export const ctaContent = `Connect with us today.`;
-export const copyright = `Copyright © 2022 | SocioPixels`;
+export const copyright = `Copyright © 2023 | SocioPixels`;
 export const emailId = `info@sociopixels.com`;
 export const contactNumber = `+61 4 2233 6496`;
 export const location = `Melbourne, Australia`;
