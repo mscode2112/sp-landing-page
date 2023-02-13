@@ -52,14 +52,6 @@ function SEO({ description, lang, meta, title }) {
           property: `og:image`,
           content: image,
         },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
-        },
       ].concat(meta)}
     />
   );
