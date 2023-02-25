@@ -17,6 +17,20 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-transformer-json",
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-SMX843DEWF", // Google Analytics / GA
+          "UA-257750036-1",
+        ],
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+        },
+      },
+    },
+    {
       resolve: "gatsby-plugin-exclude",
       options: { paths: ["/static/**"] },
     },
