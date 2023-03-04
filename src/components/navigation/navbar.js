@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { navigate } from "gatsby";
+import { navigate, graphql, useStaticQuery } from "gatsby";
 import NavbarLinks from "./navbarLinks";
 import { StaticImage } from "gatsby-plugin-image";
 import { useBetween } from "use-between";
@@ -33,6 +33,8 @@ export const Navbar = () => {
         <StaticImage
           alt="SocioPixels Logo"
           src="../../images/Logo-2020-Full.png"
+          placeholder="blurred"
+          loading="eager"
         />
       </LogoWrap>
       <Toggle

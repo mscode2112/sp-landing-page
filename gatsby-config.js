@@ -17,6 +17,13 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-transformer-json",
     {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-NNRH8S2",
+        enableWebVitalsTracking: true,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [

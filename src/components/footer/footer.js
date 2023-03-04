@@ -63,6 +63,7 @@ const Footer = () => {
                     className={icon}
                     alt="Facebook Icon"
                     src="../../images/facebook icon.svg"
+                    placeholder="BLURRED"
                   ></StaticImage>
                 </a>
                 <a href="https://www.instagram.com/sociopixels/">
@@ -70,6 +71,7 @@ const Footer = () => {
                     className={icon}
                     alt="Instagram Icon"
                     src="../../images/instagram icon.svg"
+                    placeholder="BLURRED"
                   ></StaticImage>
                 </a>
                 <a href="https://www.linkedin.com/company/sociopixels/">
@@ -77,6 +79,7 @@ const Footer = () => {
                     className={icon}
                     alt="Linkedin Icon"
                     src="../../images/linkedin icon.svg"
+                    placeholder="BLURRED"
                   ></StaticImage>
                 </a>
                 <a href="https://www.youtube.com/channel/UCBos1ikwA3mBdZPMoqACLHg/videos">
@@ -84,6 +87,7 @@ const Footer = () => {
                     className={icon}
                     alt="Youtube Icon"
                     src="../../images/youtube icon.svg"
+                    placeholder="BLURRED"
                   ></StaticImage>
                 </a>
               </div>
@@ -97,6 +101,7 @@ const Footer = () => {
                 className={icon}
                 alt="Whatsapp Icon"
                 src="../../images/whatsapp icon.svg"
+                placeholder="BLURRED"
               ></StaticImage>
               <p className={contactText}>{whatsappNumber}</p>
             </div>
@@ -105,6 +110,7 @@ const Footer = () => {
                 className={icon}
                 alt="Call Icon"
                 src="../../images/call 1.png"
+                placeholder="BLURRED"
               ></StaticImage>
               <p className={contactText}>{contactNumber}</p>
             </div>
@@ -113,6 +119,7 @@ const Footer = () => {
                 className={icon}
                 alt="Mail Icon"
                 src="../../images/mail icon.svg"
+                placeholder="BLURRED"
               ></StaticImage>
               <p className={contactText}>{emailId}</p>
             </div>
@@ -121,6 +128,7 @@ const Footer = () => {
                 className={icon}
                 alt="Location Icon"
                 src="../../images/location icon.svg"
+                placeholder="BLURRED"
               ></StaticImage>
               <p className={contactText}>{location}</p>
             </div>
