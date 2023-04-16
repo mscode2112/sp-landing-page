@@ -1,0 +1,54 @@
+[
+    {
+        "headerImage": "../images/customvideoimages/Educational.png"
+    },
+    {
+        "aboutImage": "../images/customvideoimages/EducationalAbout.png"
+    },
+    {
+        "thumbnail": "../images/thumbnails/oplify.png",
+        "alt": "Educational Video 1",
+        "link": "https://player.vimeo.com/video/772319170"
+    },
+    {
+        "thumbnail": "../images/thumbnails/jaychemical.png",
+        "alt": "Educational Video 2",
+        "link": "https://player.vimeo.com/video/802181339"
+    },
+    
+    {
+        "thumbnail": "../images/thumbnails/keener.png",
+        "alt": "Educational Video 3",
+        "link": "https://player.vimeo.com/video/802168568"
+    },
+    {
+        "thumbnail": "../images/thumbnails/moonmission.png",
+        "alt": "Educational Video 4",
+        "link": "https://player.vimeo.com/video/802167765"
+    },
+    {
+        "thumbnail": "../images/thumbnails/7cs.png",
+        "alt": "Educational Video 5",
+        "link": "https://player.vimeo.com/video/802167929"
+    },
+    {
+        "thumbnail": "../images/thumbnails/teleconferencing.png",
+        "alt": "Educational Video 6",
+        "link": "https://player.vimeo.com/video/802167900"
+    },
+    {
+        "thumbnail": "../images/thumbnails/videoconferencing.png",
+        "alt": "Educational Video 7",
+        "link": "https://player.vimeo.com/video/802167947"
+    },
+    {
+        "thumbnail": "../images/thumbnails/customerandyou.png",
+        "alt": "Educational Video 8",
+        "link": "https://player.vimeo.com/video/802168421"
+    },
+    {
+        "thumbnail": "../images/thumbnails/risksatwork.png",
+        "alt": "Educational Video 9",
+        "link": "https://player.vimeo.com/video/802167844"
+    }
+]

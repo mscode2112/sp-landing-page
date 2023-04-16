@@ -1,0 +1,33 @@
+[
+    {
+        "headerImage": "../images/customvideoimages/Whiteboard.png"
+    },  
+    {
+        "aboutImage": "../images/customvideoimages/WhiteboardAbout.png"
+    },
+    {
+        "thumbnail": "../images/thumbnails/workday.png",
+        "alt": "Whiteboard Video 1",
+        "link": "https://player.vimeo.com/video/802168552"
+    },
+    {
+        "thumbnail": "../images/thumbnails/covidSeriesEp2.png",
+        "alt": "Whiteboard Video 2",
+        "link": "https://player.vimeo.com/video/765224572"
+    },
+    {
+        "thumbnail": "../images/thumbnails/covidSeriesEp3.png",
+        "alt": "Whiteboard Video 3",
+        "link": "https://player.vimeo.com/video/765224627"
+    },
+    {
+        "thumbnail": "../images/thumbnails/jivaayurbaby.png",
+        "alt": "Whiteboard Video 4",
+        "link": "https://player.vimeo.com/video/804778009"
+    },
+    {
+        "thumbnail": "../images/thumbnails/jivadigestall.png",
+        "alt": "Whiteboard Video 5",
+        "link": "https://player.vimeo.com/video/802167878"
+    }
+]

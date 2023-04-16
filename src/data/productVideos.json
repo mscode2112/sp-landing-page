@@ -1,0 +1,53 @@
+[
+    {
+        "headerImage": "../images/customvideoimages/Product.png"
+    },  
+    {
+        "aboutImage": "../images/customvideoimages/ProductAbout.png"
+    },
+    {
+        "thumbnail": "../images/thumbnails/casanixsmarthome2.png",
+        "alt": "Product Video 1",
+        "link": "https://player.vimeo.com/video/762452287"
+    },
+    {
+        "thumbnail": "../images/thumbnails/celsure.png",
+        "alt": "Product Video 2",
+        "link": "https://player.vimeo.com/video/802375937"
+    },
+    {
+        "thumbnail": "../images/thumbnails/celsure3D.png",
+        "alt": "Product Video 3",
+        "link": "https://player.vimeo.com/video/802167812"
+    },
+    {
+        "thumbnail": "../images/thumbnails/fonewear.png",
+        "alt": "Product Video 4",
+        "link": "https://player.vimeo.com/video/802167833"
+    },
+    {
+        "thumbnail": "../images/thumbnails/watersavers.png",
+        "alt": "Product Video 5",
+        "link": "https://player.vimeo.com/video/802168519"
+    },
+    {
+        "thumbnail": "../images/thumbnails/casiogst.png",
+        "alt": "Product Video 6",
+        "link": "https://player.vimeo.com/video/802168817"
+    },
+    {
+        "thumbnail": "../images/thumbnails/companybrandstore.png",
+        "alt": "Explainer Video 12",
+        "link": "https://player.vimeo.com/video/763654619"
+    },
+    {
+        "thumbnail": "../images/thumbnails/ceunlimited.png",
+        "alt": "Product Video 8",
+        "link": "https://player.vimeo.com/video/802168745"
+    },
+    {
+        "thumbnail": "../images/thumbnails/HSC.png",
+        "alt": "Explainer Video 7",
+        "link": "https://player.vimeo.com/video/762452521"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "headerImage": "../images/customvideoimages/VideoSeries.png"
+    },  
+    {
+        "aboutImage": "../images/customvideoimages/VideoSeriesAbout.png"
+    },
+    {
+        "thumbnail": "../images/thumbnails/intercellmentee.png",
+        "alt": "Video Series 1",
+        "link": "https://player.vimeo.com/video/766800081"
+    },
+    {
+        "thumbnail": "../images/thumbnails/intercellcorporate.png",
+        "alt": "Video Series 2",
+        "link": "https://player.vimeo.com/video/786432183"
+    },
+    {
+        "thumbnail": "../images/thumbnails/intercellmentor.png",
+        "alt": "Video Series 3",
+        "link": "https://player.vimeo.com/video/762452775"
+    },
+    {
+        "thumbnail": "../images/thumbnails/policymanager.png",
+        "alt": "Video Series 4",
+        "link": "https://player.vimeo.com/video/802168677"
+    },
+    {
+        "thumbnail": "../images/thumbnails/ceunlimited.png",
+        "alt": "Video Series 5",
+        "link": "https://player.vimeo.com/video/802168745"
+    },
+      {
+        "thumbnail": "../images/thumbnails/shiftwizardchro.png",
+        "alt": "Video Series 6",
+        "link": "https://player.vimeo.com/video/802168633"
+    }
+]

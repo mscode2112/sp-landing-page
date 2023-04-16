@@ -33,6 +33,7 @@
     height: auto;
     display: block;
     transition: transform .3s;
+    cursor: pointer;
 }
 
 .icon:hover {

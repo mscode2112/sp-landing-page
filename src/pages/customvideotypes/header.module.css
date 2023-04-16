@@ -2,13 +2,12 @@
     background: var(--white);
 }
 
-.inner-hero {
+.inner-header {
     max-width: var(--max-width-default);
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    padding-bottom: 10%;
 }
 
 .left-hero {
@@ -157,10 +156,11 @@
 
 
 @media (min-width: 320px) and (max-width: 736px) {
-    .inner-hero {
+    .inner-header {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
-        padding-bottom: 0;
+        padding-bottom: 10%;
+        display: block;
     }
     .left-hero {
         padding: 0 0 0 0;
@@ -176,7 +176,7 @@
         padding-top: 8%;
     }
     .right-hero {
-        display: block;
+        display: none;
         padding-left: 0;
     }
     .hero-video {
@@ -216,7 +216,7 @@
 }
 
 @media (min-width: 738px) and (max-width: 1112px) and (orientation:portrait) {
-    .inner-hero {
+    .inner-header {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         padding-bottom: 5%;
@@ -229,7 +229,7 @@
         padding: 2% 0 3% 0;
     }
     .right-hero {
-        display: block;
+        display: none;
         padding-left: 0;
     }
     .hero-video {
@@ -246,7 +246,7 @@
 }
 
 @media (min-width: 738px) and (max-width: 1112px) and (orientation:landscape) {
-    .inner-hero {
+    .inner-header {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         padding-bottom: 5%;
@@ -260,7 +260,7 @@
     }
 
     .right-hero {
-        display: block;
+        display: none;
         padding-left: 0;
     }
 
@@ -276,7 +276,7 @@
 }
 
 @media (min-width: 2560px) {
-    .inner-hero {
+    .inner-header {
         max-width: 2000px;
     }
 }

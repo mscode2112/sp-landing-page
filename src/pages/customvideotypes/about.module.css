@@ -1,0 +1,87 @@
+.container {
+    background: var(--light-orange);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.inner-container {
+    max-width: var(--max-width-default);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    margin: 0 auto;
+}
+
+.image-section {
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-section {
+    display: grid;
+    margin: 0 auto;
+    padding-left: 10%;
+    justify-content: center;
+    align-content: center;
+}
+
+.section-text-head-part1 {
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: var(--black);
+    white-space: pre-line;
+}
+
+.section-text-head-part2 {
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: var(--orange);
+}
+
+.section-text-sub {
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: var(--gray);
+    white-space: pre-line;
+    padding-right: 25%;
+}
+
+
+@media (min-width: 320px) and (max-width: 736px) {
+    .text-section {
+        justify-content: center;
+        align-content: center;
+        line-height: 22px;
+    }
+
+    .section-text-head-part1 {
+        white-space: normal;
+    }
+
+    .section-text-sub {
+        padding: 0 15% 5% 0;
+    }
+}
+
+@media (min-width: 738px) and (max-width: 1112px) {
+    .container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .section-text-head-part1 {
+        white-space: normal;
+    }
+
+    .section-text-sub {
+        padding: 0 15% 5% 0;
+    }
+}

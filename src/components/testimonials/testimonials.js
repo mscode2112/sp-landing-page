@@ -71,14 +71,14 @@ const Testimonials = () => {
                   tabIndex={0}
                   onClick={() => {
                     setVideoModal3Data(
-                      "https://player.vimeo.com/video/763655480"
+                      "https://player.vimeo.com/video/817893086"
                     );
                     setVideoModal3Open(true);
                   }}
                 >
                   <StaticImage
                     alt="Client testimonial 2"
-                    src="../../images/thumbnails/testimonial-CJ.png"
+                    src="../../images/thumbnails/testimonial-CJ-1.png"
                     placeholder="BLURRED"
                   />
                   <div className={playButton}></div>

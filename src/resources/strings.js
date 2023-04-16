@@ -46,3 +46,52 @@ export const location = `Delhi, India
 Melbourne, Australia`;
 export const blogFooterContent = `Ready to reap the benefits of an explainer video 
 that sets you apart from your competition?`;
+export const explainerHeadlineContent = `Explainer Videos`;
+export const explainerSubHeadlineContent = `Your shortcut to explaining complex ideas in a simple and engaging way.`;
+export const explainerTitlePart1 = `What is an `;
+export const explainerTitlePart2 = `Explainer Video ?`;
+export const explainerContent = `An animated explainer video is a short, engaging video that explains a concept, product, or service in an easy and entertaining way. 
+It uses the power of story-telling and catchy illustrations, animations, and voice-overs to convey a clear, concise, and visually appealing message.
+
+Animated explainer videos are perfect for social media, websites, and presentations.
+An explainer video on a website has several benefits, including increased engagement, conversion rates, brand awareness, and improved SEO.`;
+export const appHeadlineContent = `App Demo Videos`;
+export const appSubHeadlineContent = `Simplifying your app's functionality, engaging your audience, and showcasing your product's unique features to help you stand out in the market.`;
+export const appTitlePart1 = `What is an `;
+export const appTitlePart2 = `App Demo Video ?`;
+export const appContent = `App demo videos are short videos that showcase the features and functionality of a mobile or web application. They give potential users an overview of the app's capabilities, user interface, and key features visually and interactively. 
+App demos can help users better understand how to use the app and its benefits, making it easier to decide whether to download and use the app. 
+
+App videos are an effective way to promote an app and increase user engagement by giving viewers a clear understanding of the app's benefits and how to use it.`;
+export const productHeadlineContent = `Product Videos`;
+export const productSubHeadlineContent = `From concept to creation, our product video production will elevate your brand and bring your product to life in a way that captivates and converts.`;
+export const productTitlePart1 = `What is a `;
+export const productTitlePart2 = `Product Video ?`;
+export const productContent = `A product video is a highly effective marketing tool that uses engaging and visually appealing animations to showcase your product's features and benefits. 
+By using colorful graphics, dynamic transitions, and a compelling narrative, an animated product video can capture the viewer's attention and effectively communicate the value of your product in a way that's easy to understand and remember. 
+
+An animated video is an excellent way to showcase your product and differentiate it from the competition.`;
+export const seriesHeadlineContent = `Video Series`;
+export const seriesSubHeadlineContent = `Bringing your vision to life, creating a lasting impression, and elevating your brand with high-quality visuals and storytelling.`;
+export const seriesTitlePart1 = `What is a `;
+export const seriesTitlePart2 = `Video Series?`;
+export const seriesContent = `An animated video series can capture and hold your viewer's attention while effectively communicating your message over a series of episodes. 
+This format is particularly effective in building brand awareness, promoting new products or services, or telling a longer story over multiple installments. 
+
+Whether you're looking to entertain, educate, or inform your audience, an animated video series can help you achieve your marketing goals while creating a lasting and memorable impression.`;
+export const educationalHeadlineContent = `Educational Videos`;
+export const educationalSubHeadlineContent = `Enlighten, Educate, Empower your customers through the power of videos.`;
+export const educationalTitlePart1 = `What is an `;
+export const educationalTitlePart2 = `Educational Video ?`;
+export const educationalContent = `An educational video aims to explain complex concepts, products or services in a simple and engaging way. 
+By combining beautiful animations, memorable graphics, and compelling storytelling techniques, an animated educational video can help your audience understand and retain information more easily. 
+
+Whether you're looking to educate your audience about a new product or service, or simply looking to provide value to your customers, an animated educational video is an effective marketing tool that can help you achieve your goals.`;
+export const whiteboardHeadlineContent = `Whiteboard Videos`;
+export const whiteboardSubHeadlineContent = `Unleash your ideas and capture the imagination of your audience with our whiteboard animations.`;
+export const whiteboardTitlePart1 = `What is a `;
+export const whiteboardTitlePart2 = `Whiteboard Video ?`;
+export const whiteboardContent = `A whiteboard video is a dynamic marketing tool that uses a hand-drawn animation style to convey information in a fun and memorable way. 
+The video typically features compelling illustrations drawn in real-time on a virtual whiteboard. Whiteboard videos are particularly effective at simplifying complex ideas or concepts and can help to keep viewers engaged and entertained throughout the entire video. 
+
+Using a whiteboard video, you can create a unique and memorable brand experience to help your business stand out in a crowded market.`;

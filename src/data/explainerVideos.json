@@ -1,0 +1,53 @@
+[
+    {
+        "headerImage": "../images/customvideoimages/Explainer.png"
+    },  
+    {
+        "aboutImage": "../images/customvideoimages/ExplainerAbout.png"
+    },  
+    {
+        "thumbnail": "../images/thumbnails/intercellcorporate.png",
+        "alt": "Explainer Video 1",
+        "link": "https://player.vimeo.com/video/786432183"
+    },
+    {
+        "thumbnail": "../images/thumbnails/saarthee.png",
+        "alt": "Explainer Video 2",
+        "link": "https://player.vimeo.com/video/763654542"
+    },
+    {
+        "thumbnail": "../images/thumbnails/leadics.png",
+        "alt": "Explainer Video 3",
+        "link": "https://player.vimeo.com/video/762452817"
+    },
+    {
+        "thumbnail": "../images/thumbnails/dcstreetcar.png",
+        "alt": "Explainer Video 4",
+        "link": "https://player.vimeo.com/video/762452374"
+    },
+    {
+        "thumbnail": "../images/thumbnails/pnut.png",
+        "alt": "Explainer Video 5",
+        "link": "https://player.vimeo.com/video/762453225"
+    },
+    {
+        "thumbnail": "../images/thumbnails/newnordic.png",
+        "alt": "Explainer Video 6",
+        "link": "https://player.vimeo.com/video/762453034"
+    },
+    {
+        "thumbnail": "../images/thumbnails/nursegrid.png",
+        "alt": "Explainer Video 7",
+        "link": "https://player.vimeo.com/video/763664832"
+    },
+    {
+        "thumbnail": "../images/thumbnails/Inlay.png",
+        "alt": "Explainer Video 8",
+        "link": "https://player.vimeo.com/video/763661571"
+    },
+    {
+        "thumbnail": "../images/thumbnails/oplify2.png",
+        "alt": "Explainer Video 9",
+        "link": "https://player.vimeo.com/video/762453098"
+    }
+]
