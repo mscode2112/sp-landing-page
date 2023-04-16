@@ -37,6 +37,7 @@ const CustomVideo = () => {
               <StaticImage
                 alt="Icon for explainer videos"
                 src="../../images/icon 1.svg"
+                placeholder="BLURRED"
               />
             </div>
             <h3>
@@ -51,6 +52,7 @@ const CustomVideo = () => {
               <StaticImage
                 alt="Icon for App demos"
                 src="../../images/icon 2.svg"
+                placeholder="BLURRED"
               />
             </div>
             <h3>
@@ -65,6 +67,7 @@ const CustomVideo = () => {
               <StaticImage
                 alt="Icon for Product demos"
                 src="../../images/icon 3.svg"
+                placeholder="BLURRED"
               />
             </div>
             <h3>
@@ -79,6 +82,7 @@ const CustomVideo = () => {
               <StaticImage
                 alt="Icon for Video Series"
                 src="../../images/icon 4.svg"
+                placeholder="BLURRED"
               />
             </div>
             <h3>
@@ -93,6 +97,7 @@ const CustomVideo = () => {
               <StaticImage
                 alt="Icon for Educational videos"
                 src="../../images/icon 5.svg"
+                placeholder="BLURRED"
               />
             </div>
             <h3>
@@ -107,6 +112,7 @@ const CustomVideo = () => {
               <StaticImage
                 alt="Icon for whiteboard videos"
                 src="../../images/icon 6.svg"
+                placeholder="BLURRED"
               />
             </div>
             <h3>
