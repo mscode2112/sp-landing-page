@@ -90,7 +90,7 @@ const Header = ({
             <GatsbyImage
               className={heroVideo}
               alt="Custom Animated Video Header Graphic"
-              image={getImage(headerImage.childImageSharp.gatsbyImageData)}
+              image={headerImage!=null?getImage(headerImage.childImageSharp.gatsbyImageData):""}
             ></GatsbyImage>
             {/* <video
               className={heroVideo}

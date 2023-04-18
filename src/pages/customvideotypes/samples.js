@@ -39,31 +39,33 @@ const Samples = ({ data }) => {
 
   function getPortfolio(data) {
     const portfolioArray = [];
-    data.edges.map((edge) => {
-      const image = getImage(edge.node.thumbnail);
-      if (image != null) {
-        portfolioArray.push(
-          <VideoCard key={edge.node.id}>
-            <div
-              role="button"
-              tabIndex={0}
-              onClick={() => {
-                setVideoModal4Data(edge.node.link);
-                setVideoModal4Open(true);
-              }}
-            >
-              <GatsbyImage
-                className={videoImage}
-                alt={edge.node.alt}
-                image={image}
-              />
-              <div className={playButton}></div>
-            </div>
-          </VideoCard>
-        );
-      }
-      return portfolioArray;
-    });
+    if (data != null) {
+      data.edges.map((edge) => {
+        const image = getImage(edge.node.thumbnail);
+        if (image != null) {
+          portfolioArray.push(
+            <VideoCard key={edge.node.id}>
+              <div
+                role="button"
+                tabIndex={0}
+                onClick={() => {
+                  setVideoModal4Data(edge.node.link);
+                  setVideoModal4Open(true);
+                }}
+              >
+                <GatsbyImage
+                  className={videoImage}
+                  alt={edge.node.alt}
+                  image={image}
+                />
+                <div className={playButton}></div>
+              </div>
+            </VideoCard>
+          );
+        }
+        return portfolioArray;
+      })
+    };
     return portfolioArray;
   }
   return (

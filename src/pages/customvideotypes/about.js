@@ -19,7 +19,7 @@ const About = ({ titlePart1, titlePart2, sectionContent, aboutImage }) => {
           <GatsbyImage
             className={sectionImage}
             alt="Custom Animated Video"
-            image={getImage(aboutImage.childImageSharp.gatsbyImageData)}
+            image={aboutImage!=null?getImage(aboutImage.childImageSharp.gatsbyImageData):""}
           ></GatsbyImage>
         </div>
         <div className={textSection}>
