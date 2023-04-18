@@ -47,7 +47,7 @@ Melbourne, Australia`;
 export const blogFooterContent = `Ready to reap the benefits of an explainer video 
 that sets you apart from your competition?`;
 export const explainerHeadlineContent = `Explainer Videos`;
-export const explainerSubHeadlineContent = `Your shortcut to explaining complex ideas in a simple and engaging way.`;
+export const explainerSubHeadlineContent = `Simplifying the complex and captivating your audience, one frame at a time. Explainers videos are like having your sales pitch on autopilot.`;
 export const explainerTitlePart1 = `What is an `;
 export const explainerTitlePart2 = `Explainer Video ?`;
 export const explainerContent = `An animated explainer video is a short, engaging video that explains a concept, product, or service in an easy and entertaining way. 
@@ -80,7 +80,7 @@ This format is particularly effective in building brand awareness, promoting new
 
 Whether you're looking to entertain, educate, or inform your audience, an animated video series can help you achieve your marketing goals while creating a lasting and memorable impression.`;
 export const educationalHeadlineContent = `Educational Videos`;
-export const educationalSubHeadlineContent = `Enlighten, Educate, Empower your customers through the power of videos.`;
+export const educationalSubHeadlineContent = `Enlighten, Educate, Empower your customers through the power of videos. From sketches to solutions, our animated videos make learning fun.`;
 export const educationalTitlePart1 = `What is an `;
 export const educationalTitlePart2 = `Educational Video ?`;
 export const educationalContent = `An educational video aims to explain complex concepts, products or services in a simple and engaging way. 
@@ -88,7 +88,7 @@ By combining beautiful animations, memorable graphics, and compelling storytelli
 
 Whether you're looking to educate your audience about a new product or service, or simply looking to provide value to your customers, an animated educational video is an effective marketing tool that can help you achieve your goals.`;
 export const whiteboardHeadlineContent = `Whiteboard Videos`;
-export const whiteboardSubHeadlineContent = `Unleash your ideas and capture the imagination of your audience with our whiteboard animations.`;
+export const whiteboardSubHeadlineContent = `Unleash your ideas and capture the imagination of your audience with our whiteboard animations, the perfect way to showcase your brand's personality.`;
 export const whiteboardTitlePart1 = `What is a `;
 export const whiteboardTitlePart2 = `Whiteboard Video ?`;
 export const whiteboardContent = `A whiteboard video is a dynamic marketing tool that uses a hand-drawn animation style to convey information in a fun and memorable way. 
