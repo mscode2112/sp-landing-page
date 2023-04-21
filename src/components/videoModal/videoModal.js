@@ -16,7 +16,7 @@ import { useSharedVideoModal3State } from "../testimonials/testimonials";
 import { useSharedVideoModal4State } from "../../pages/customvideotypes/samples";
 import { useSharedVideoModal5State } from "../../pages/customvideotypes/header";
 
-const urlSuffix = "?color=0c88dd&title=0&byline=0&portrait=0&badge=0&autoplay=1";
+const urlSuffix = "?color=0c88dd&title=0&byline=0&portrait=0&badge=0";
 
 const VideoModal = () => {
   const { modalOpen, setModalOpen, modalData } = useSharedModalState();
