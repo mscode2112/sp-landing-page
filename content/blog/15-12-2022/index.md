@@ -1,5 +1,5 @@
 ---
-path: "/blog5"
+path: "/990-15-12-2022"
 title: "Google Loves Videos on your website. Do you?"
 date: "15 December 2022"
 featuredimage: 

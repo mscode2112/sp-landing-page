@@ -14,7 +14,7 @@ import {
 
 export const AllBlogsQuery = graphql`
   query AllBlogPosts {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: {order: DESC, fields: frontmatter___path}){
       edges {
         node {
           frontmatter {

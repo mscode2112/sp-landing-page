@@ -1,5 +1,5 @@
 ---
-path: "/2023-01-28"
+path: "/995-28-01-2023"
 title: "Lights, Camera, Action: How to Create a Promotional Video that Generates Buzz"
 date: "28 January 2023"
 featuredimage: 

@@ -1,5 +1,5 @@
 ---
-path: "/blog2"
+path: "/993-15-01-2023"
 title: "Why You Should Hire An Explainer Video Company"
 date: "15 January 2023"
 featuredimage: 

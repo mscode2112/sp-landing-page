@@ -1,5 +1,5 @@
 ---
-path: "/blog4"
+path: "/992-14-01-2023"
 title: "7 Reasons You Need Explainer Videos to Tell Your Brand Story"
 date: "14 January 2023"
 featuredimage: 
