@@ -4,6 +4,7 @@ import Navbar from "../../components/navigation/navbar";
 import Header from "./header";
 import About from "./about";
 import Footer from "../../components/footer/footer";
+import HeroVideo from "../../images/customvideoimages/gifs/Whiteboard.mp4";
 import {
   whiteboardHeadlineContent,
   whiteboardSubHeadlineContent,
@@ -18,11 +19,6 @@ export const data = graphql`
     allWhiteboardVideosJson {
       edges {
         node {
-          headerImage {
-            childImageSharp {
-              gatsbyImageData(placeholder: BLURRED)
-            }
-          }
           aboutImage {
             childImageSharp {
               gatsbyImageData(placeholder: BLURRED)
@@ -51,13 +47,14 @@ const WhiteboardVideos = ({ data }) => {
           headlineContent={whiteboardHeadlineContent}
           subHeadlineContent={whiteboardSubHeadlineContent}
           videoUrl={data.allWhiteboardVideosJson.edges[2].node.link}
-          headerImage={data.allWhiteboardVideosJson.edges[0].node.headerImage}
+          headerVideo={HeroVideo}
         />
         <About
           titlePart1={whiteboardTitlePart1}
           titlePart2={whiteboardTitlePart2}
           sectionContent={whiteboardContent}
           aboutImage={data.allWhiteboardVideosJson.edges[1].node.aboutImage}
+          headerVideo={HeroVideo}
         />
         <Samples data={data.allWhiteboardVideosJson} />
         <Footer />

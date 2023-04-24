@@ -9,9 +9,16 @@ import {
   sectionTextSub,
   imageSection,
   sectionImage,
+  heroVideoMobile,
 } from "./about.module.css";
 
-const About = ({ titlePart1, titlePart2, sectionContent, aboutImage }) => {
+const About = ({
+  titlePart1,
+  titlePart2,
+  sectionContent,
+  aboutImage,
+  headerVideo,
+}) => {
   return (
     <div className={container}>
       <div className={innerContainer}>
@@ -19,8 +26,19 @@ const About = ({ titlePart1, titlePart2, sectionContent, aboutImage }) => {
           <GatsbyImage
             className={sectionImage}
             alt="Custom Animated Video"
-            image={aboutImage!=null?getImage(aboutImage.childImageSharp.gatsbyImageData):""}
+            image={
+              aboutImage != null
+                ? getImage(aboutImage.childImageSharp.gatsbyImageData)
+                : ""
+            }
           ></GatsbyImage>
+          <video
+            className={heroVideoMobile}
+            loop
+            autoPlay
+            muted
+            src={headerVideo}
+          ></video>
         </div>
         <div className={textSection}>
           <h2>

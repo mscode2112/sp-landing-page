@@ -21,10 +21,7 @@ import {
   showreelButton,
   showreelText,
 } from "./header.module.css";
-import { subHeadlineContentMobile } from "../../resources/strings.js";
-import HeroVideo from "../../images/videos/Hero3.mp4";
 import WatchMeVideo from "../../images/videos/WatchMe.mp4";
-import ShowreelVideo from "../../images/videos/SocioPixels Showreel 2022.mp4";
 import VideoModal from "../../components/videoModal/videoModal";
 
 const useShareableState = () => {
@@ -43,7 +40,7 @@ const Header = ({
   headlineContent,
   subHeadlineContent,
   videoUrl,
-  headerImage,
+  headerVideo,
 }) => {
   const { setVideoModal5Open, setVideoModal5Data } =
     useSharedVideoModal5State();
@@ -87,29 +84,13 @@ const Header = ({
         </div>
         <div className={rightHero}>
           <div>
-            <GatsbyImage
-              className={heroVideo}
-              alt="Custom Animated Video Header Graphic"
-              image={headerImage!=null?getImage(headerImage.childImageSharp.gatsbyImageData):""}
-            ></GatsbyImage>
-            {/* <video
+            <video
               className={heroVideo}
               loop
               autoPlay
               muted
-              src={HeroVideo}
-            ></video> */}
-            {/* <video
-              className={heroVideoMobile}
-              loop
-              autoPlay
-              muted
-              src={ShowreelVideo}
-              onClick={() => {
-                // setModalData("https://player.vimeo.com/video/763654563");
-                // setModalOpen(true);
-              }}
-            ></video> */}
+              src={headerVideo}
+            ></video>
           </div>
         </div>
         <VideoModal />

@@ -4,6 +4,7 @@ import Navbar from "../../components/navigation/navbar";
 import Header from "./header";
 import About from "./about";
 import Footer from "../../components/footer/footer";
+import HeroVideo from "../../images/customvideoimages/gifs/Product.mp4";
 import {
   productHeadlineContent,
   productSubHeadlineContent,
@@ -18,11 +19,6 @@ export const data = graphql`
     allProductVideosJson {
       edges {
         node {
-          headerImage {
-            childImageSharp {
-              gatsbyImageData(placeholder: BLURRED)
-            }
-          }
           aboutImage {
             childImageSharp {
               gatsbyImageData(placeholder: BLURRED)
@@ -51,13 +47,14 @@ const ProductVideos = ({ data }) => {
           headlineContent={productHeadlineContent}
           subHeadlineContent={productSubHeadlineContent}
           videoUrl={data.allProductVideosJson.edges[2].node.link}
-          headerImage={data.allProductVideosJson.edges[0].node.headerImage}
+          headerVideo={HeroVideo}
         />
         <About
           titlePart1={productTitlePart1}
           titlePart2={productTitlePart2}
           sectionContent={productContent}
           aboutImage={data.allProductVideosJson.edges[1].node.aboutImage}
+          headerVideo={HeroVideo}
         />
         <Samples data={data.allProductVideosJson} />
         <Footer />
