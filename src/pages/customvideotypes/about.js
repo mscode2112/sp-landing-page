@@ -17,7 +17,7 @@ const About = ({
   titlePart2,
   sectionContent,
   aboutImage,
-  headerVideo,
+  aboutVideo,
 }) => {
   return (
     <div className={container}>
@@ -37,7 +37,7 @@ const About = ({
             loop
             autoPlay
             muted
-            src={headerVideo}
+            src={aboutVideo}
           ></video>
         </div>
         <div className={textSection}>

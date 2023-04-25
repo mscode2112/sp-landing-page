@@ -5,6 +5,7 @@ import Header from "./header";
 import About from "./about";
 import Footer from "../../components/footer/footer";
 import HeroVideo from "../../images/customvideoimages/gifs/Explainer.mp4";
+import AboutVideo from "../../images/customvideoimages/gifs/Explainer_BG.mp4";
 import {
   explainerHeadlineContent,
   explainerSubHeadlineContent,
@@ -46,15 +47,15 @@ const ExplainerVideos = ({ data }) => {
         <Header
           headlineContent={explainerHeadlineContent}
           subHeadlineContent={explainerSubHeadlineContent}
-          videoUrl={data.allExplainerVideosJson.edges[2].node.link}
+          videoUrl={data.allExplainerVideosJson.edges[1].node.link}
           headerVideo={HeroVideo}
         />
         <About
           titlePart1={explainerTitlePart1}
           titlePart2={explainerTitlePart2}
           sectionContent={explainerContent}
-          aboutImage={data.allExplainerVideosJson.edges[1].node.aboutImage}
-          headerVideo={HeroVideo}
+          aboutImage={data.allExplainerVideosJson.edges[0].node.aboutImage}
+          aboutVideo={AboutVideo}
         />
         <Samples data={data.allExplainerVideosJson} />
         <Footer />

@@ -5,6 +5,7 @@ import Header from "./header";
 import About from "./about";
 import Footer from "../../components/footer/footer";
 import HeroVideo from "../../images/customvideoimages/gifs/AppDemos.mp4";
+import AboutVideo from "../../images/customvideoimages/gifs/AppDemos_BG.mp4";
 import {
   appHeadlineContent,
   appSubHeadlineContent,
@@ -46,15 +47,15 @@ const AppDemos = ({ data }) => {
         <Header
           headlineContent={appHeadlineContent}
           subHeadlineContent={appSubHeadlineContent}
-          videoUrl={data.allAppDemosJson.edges[2].node.link}
+          videoUrl={data.allAppDemosJson.edges[1].node.link}
           headerVideo={HeroVideo}
         />
         <About
           titlePart1={appTitlePart1}
           titlePart2={appTitlePart2}
           sectionContent={appContent}
-          aboutImage={data.allAppDemosJson.edges[1].node.aboutImage}
-          headerVideo={HeroVideo}
+          aboutImage={data.allAppDemosJson.edges[0].node.aboutImage}
+          aboutVideo={AboutVideo}
         />
         <Samples data={data.allAppDemosJson} />
         <Footer />

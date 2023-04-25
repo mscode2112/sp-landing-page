@@ -5,6 +5,7 @@ import Header from "./header";
 import About from "./about";
 import Footer from "../../components/footer/footer";
 import HeroVideo from "../../images/customvideoimages/gifs/VideoSeries.mp4";
+import AboutVideo from "../../images/customvideoimages/gifs/VideoSeries_BG.mp4";
 import {
   seriesHeadlineContent,
   seriesSubHeadlineContent,
@@ -46,15 +47,15 @@ const VideoSeries = ({ data }) => {
         <Header
           headlineContent={seriesHeadlineContent}
           subHeadlineContent={seriesSubHeadlineContent}
-          videoUrl={data.allVideoSeriesJson.edges[2].node.link}
+          videoUrl={data.allVideoSeriesJson.edges[1].node.link}
           headerVideo={HeroVideo}
         />
         <About
           titlePart1={seriesTitlePart1}
           titlePart2={seriesTitlePart2}
           sectionContent={seriesContent}
-          aboutImage={data.allVideoSeriesJson.edges[1].node.aboutImage}
-          headerVideo={HeroVideo}
+          aboutImage={data.allVideoSeriesJson.edges[0].node.aboutImage}
+          aboutVideo={AboutVideo}
         />
         <Samples data={data.allVideoSeriesJson} />
         <Footer />
