@@ -1,5 +1,5 @@
 ---
-path: "/994-21-01-2023"
+path: "/1944-21-01-2023"
 title: "Why animated explainer videos are effective for businesses"
 date: "21 January 2023"
 featuredimage: 
