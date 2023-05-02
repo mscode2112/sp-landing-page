@@ -23,15 +23,16 @@ const About = ({
     <div className={container}>
       <div className={innerContainer}>
         <div className={imageSection}>
-          <GatsbyImage
-            className={sectionImage}
-            alt="Custom Animated Video"
-            image={
-              aboutImage != null
-                ? getImage(aboutImage.childImageSharp.gatsbyImageData)
-                : ""
-            }
-          ></GatsbyImage>
+          <div className={sectionImage}>
+            <GatsbyImage
+              alt="Custom Animated Video"
+              image={
+                aboutImage != null
+                  ? getImage(aboutImage.childImageSharp.gatsbyImageData)
+                  : ""
+              }
+            ></GatsbyImage>
+          </div>
           <video
             className={heroVideoMobile}
             loop
