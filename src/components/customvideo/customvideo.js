@@ -26,7 +26,7 @@ import {
 
 const CustomVideo = () => {
   return (
-    <div className={container}>
+    <div id="customVideo" className={container}>
       <div className={innerContainer}>
         <div className={iconSection}>
           <div className={icon1}>

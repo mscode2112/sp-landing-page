@@ -96,15 +96,15 @@ const Footer = () => {
         </div>
         <div className={wrapperBottom}>
           <div className={contactSection}>
-            <div className={contactBox}>
-              <StaticImage
-                className={icon}
-                alt="Whatsapp Icon"
-                src="../../images/whatsapp icon.svg"
-                placeholder="BLURRED"
-              ></StaticImage>
-              <p className={contactText}>{whatsappNumber}</p>
-            </div>
+            {/*<div className={contactBox}>*/}
+            {/*  <StaticImage*/}
+            {/*    className={icon}*/}
+            {/*    alt="Whatsapp Icon"*/}
+            {/*    src="../../images/whatsapp icon.svg"*/}
+            {/*    placeholder="BLURRED"*/}
+            {/*  ></StaticImage>*/}
+            {/*  <p className={contactText}>{whatsappNumber}</p>*/}
+            {/*</div>*/}
             <div className={contactBox}>
               <StaticImage
                 className={icon}

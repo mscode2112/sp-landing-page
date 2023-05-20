@@ -42,8 +42,7 @@ export const copyright = `Copyright © 2023 | SocioPixels`;
 export const emailId = `info@sociopixels.com`;
 export const contactNumber = `+61 4 2233 6496`;
 export const whatsappNumber = `+91 9650505391`;
-export const location = `Delhi, India
-Melbourne, Australia`;
+export const location = `Melbourne, Australia`;
 export const blogFooterContent = `Ready to reap the benefits of an explainer video 
 that sets you apart from your competition?`;
 export const explainerHeadlineContent = `Explainer Videos`;

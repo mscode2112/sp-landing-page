@@ -22,7 +22,7 @@ const NavbarLinks = () => {
       <NavItem to="/#testimonials" onAnchorLinkClick={closeNavBar}>
         <h4>Reviews</h4>
       </NavItem>
-      <NavItem to="/blog/blog" onAnchorLinkClick={closeNavBar}>
+      <NavItem to="/blog/blog/" onAnchorLinkClick={closeNavBar}>
         <h4>Blog</h4>
       </NavItem>
       <QuoteButton to="/#footer" onAnchorLinkClick={closeNavBar}>

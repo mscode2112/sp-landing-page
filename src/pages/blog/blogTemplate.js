@@ -47,7 +47,7 @@ export default function BlogTemplate({ data }) {
       <Navbar />
       <div className={container}>
         <div className={innerContainer}>
-          <Link className={link} to="/blog/blog">
+          <Link className={link} to="/blog/blog/">
             Back to blogs
           </Link>
           <h2 className={heading}>{title}</h2>

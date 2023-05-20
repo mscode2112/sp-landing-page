@@ -1,6 +1,6 @@
 import React from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { navigate } from "gatsby";
+import {Link, navigate} from "gatsby";
 import { useBetween } from "use-between";
 
 import {
@@ -23,6 +23,7 @@ import {
 } from "./header.module.css";
 import WatchMeVideo from "../../images/videos/WatchMe.mp4";
 import VideoModal from "../../components/videoModal/videoModal";
+import {link} from "../blog/blogTemplate.module.css";
 
 const useShareableState = () => {
   const [videoModal5Open, setVideoModal5Open] = React.useState(false);
@@ -48,6 +49,9 @@ const Header = ({
     <div className={hero}>
       <div className={innerHeader}>
         <div className={leftHero}>
+          <Link className={link} to="/#customVideo">
+            Back
+          </Link>
           <div className={textSection}>
             <h1 className={headline}>{headlineContent}</h1>
             <p className={subheadline}>{subHeadlineContent}</p>
