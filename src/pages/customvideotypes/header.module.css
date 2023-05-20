@@ -10,6 +10,10 @@
     grid-template-rows: auto;
 }
 
+.link {
+    color: var(--orange);
+}
+
 .left-hero {
     display: grid;
     padding: 10% 25% 10% 5%;
