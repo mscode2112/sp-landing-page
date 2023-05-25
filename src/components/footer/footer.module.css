@@ -181,8 +181,8 @@
     .contact-section {
         grid-column-start: 1;
         grid-row-start: 1;
-        padding-left: 30px;
-        padding-top: 0;
+        padding-left: 15%;
+        padding-top: 2%;
     }
 
     .contact-box {
