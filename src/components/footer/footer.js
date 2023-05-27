@@ -26,7 +26,6 @@ import {
 import { ContactForm } from "./contactForm";
 import {
   contactNumber,
-  whatsappNumber,
   emailId,
   location,
   footerHeading,
@@ -106,12 +105,14 @@ const Footer = () => {
             {/*  <p className={contactText}>{whatsappNumber}</p>*/}
             {/*</div>*/}
             <div className={contactBox}>
+              <a href="tel:+61422336496">
               <StaticImage
                 className={icon}
                 alt="Call Icon"
                 src="../../images/call 1.png"
                 placeholder="BLURRED"
               ></StaticImage>
+            </a>
               <p className={contactText}>{contactNumber}</p>
             </div>
             <div className={contactBox}>
