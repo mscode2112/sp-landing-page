@@ -12,6 +12,7 @@ import {
   watchVideo,
   textSection,
   headline,
+  headlineMobile,
   subheadline,
   subheadlineMobile,
   buttonContainer,
@@ -22,6 +23,7 @@ import {
 } from "./hero.module.css";
 import {
   headlineContent,
+  headlineContentMobile,
   subHeadlineContent,
   subHeadlineContentMobile,
 } from "../../resources/strings.js";
@@ -52,7 +54,8 @@ const Hero = () => {
         <div className={leftHero}>
           <div className={textSection}>
             <h1 className={headline}>{headlineContent}</h1>
-            <p className={subheadline}>{subHeadlineContent}</p>
+            <h1 className={headlineMobile}>{headlineContentMobile}</h1>
+            <p className={subheadline}>{subHeadlineContentMobile}</p>
             <p className={subheadlineMobile}>{subHeadlineContentMobile}</p>
           </div>
           <div className={buttonContainer}>

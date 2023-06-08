@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Animated Explainer Videos Production Australia | SocioPixels`,
-    description: `SocioPixels is a Melbourne-based Animated Video Production Company that creates custom animated videos to educate your customers about your idea, concept or product, increase brand awareness, connect better with customers and generate leads.`,
+    description: `Captivate your customers with Animated Explainer videos that are sure to increase brand awareness, engage customers and boost leads.`,
     author: `SocioPixels`,
     siteUrl: `https://www.sociopixels.com.au`,
     keywords: `animated video, video maker, animated video maker, video animation, video explainer, video production service, promotion videos`,

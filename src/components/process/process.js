@@ -76,7 +76,7 @@ const Process = () => {
                     />
                   </div>
                   <div className={contentBox2}>
-                    <h1 className={stepTitle}>Script</h1>
+                    <h2 className={stepTitle}>Script</h2>
                     <p className={stepContent}>{processStep2Content}</p>
                   </div>
                 </div>
@@ -91,7 +91,7 @@ const Process = () => {
                     />
                   </div>
                   <div className={contentBox}>
-                    <h1 className={stepTitle}>Storyboard</h1>
+                    <h2 className={stepTitle}>Storyboard</h2>
                     <p className={stepContent}>{processStep3Content}</p>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ const Process = () => {
                     />
                   </div>
                   <div className={contentBox}>
-                    <h1 className={stepTitle}>Illustration</h1>
+                    <h2 className={stepTitle}>Illustration</h2>
                     <p className={stepContent}>{processStep4Content}</p>
                   </div>
                 </div>
@@ -121,7 +121,7 @@ const Process = () => {
                     />
                   </div>
                   <div className={contentBox}>
-                    <h1 className={stepTitle}>Voice Over</h1>
+                    <h2 className={stepTitle}>Voice Over</h2>
                     <p className={stepContent}>{processStep5Content}</p>
                   </div>
                 </div>
@@ -136,7 +136,7 @@ const Process = () => {
                     />
                   </div>
                   <div className={contentBox}>
-                    <h1 className={stepTitle}>Animation</h1>
+                    <h2 className={stepTitle}>Animation</h2>
                     <p className={stepContent}>{processStep6Content}</p>
                   </div>
                 </div>
@@ -151,7 +151,7 @@ const Process = () => {
                     />
                   </div>
                   <div className={contentBox}>
-                    <h1 className={stepTitle}>Delivery</h1>
+                    <h2 className={stepTitle}>Delivery</h2>
                     <p className={stepContent}>{processStep7Content}</p>
                   </div>
                 </div>

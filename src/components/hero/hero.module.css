@@ -52,6 +52,12 @@
     color: #253139;
 }
 
+.headlineMobile {
+    display: none;
+    line-height: 55px;
+    color: #253139;
+}
+
 .subheadline {
     line-height: 150%;
     letter-spacing: 0.2px;
@@ -198,10 +204,14 @@
     }
     .headline {
         line-height: 1.2;
-        font-size: 35px;
+        display: none;
     }
     .subheadline {
         display: none;
+    }
+    .headlineMobile {
+        line-height: 1.2;
+        display: block;
     }
     .subheadlineMobile {
         display: block;

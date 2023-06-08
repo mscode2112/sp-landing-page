@@ -1,4 +1,5 @@
 export const headlineContent = `Transform Your Business with Captivating Animated Videos that Drive Results`;
+export const headlineContentMobile = `Transform Your Business with Animated Videos that Drive Results`;
 export const subHeadlineContent = `Every business deserves a great story. 
 At SocioPixels, we use the power of video to communicate yours to the world and connect better with customers,
 increase brand awareness and generate leads.`;
