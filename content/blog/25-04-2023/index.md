@@ -7,7 +7,7 @@ featuredimage:
     alt: "Are animated videos getting traction these days?"
 ---
 
-## Table of Contents
+## <em>What you will Learn</em>
 ```toc
 ```
 

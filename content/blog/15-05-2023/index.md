@@ -7,7 +7,7 @@ featuredimage:
     alt: "The Power of Animated Videos in Tech Startup Marketing"
 ---
 
-## Table of Contents
+## <em>What you will Learn</em>
 
 ```toc
 ```

@@ -7,7 +7,7 @@ featuredimage:
     alt: "Tips for Promoting Your Brand with Engaging Animated Videos"
 ---
 
-## Table of Contents
+## <em>What you will Learn</em>
 
 ```toc
 ```
