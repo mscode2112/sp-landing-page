@@ -2,6 +2,7 @@
 path: "/201-15-05-2023"
 title: "The Power of Animated Videos in Tech Startup Marketing"
 date: "15 May 2023"
+slug: "/The-Power-of-Animated-Videos-in-Tech-Startup-Marketing"
 featuredimage: 
     src: "./blog.jpg"
     alt: "The Power of Animated Videos in Tech Startup Marketing"
@@ -32,6 +33,28 @@ In today's digital age, videos have become essential for building a successful b
 It's crucial to consider your overall marketing objectives, target audience, and brand identity when deciding on the type of video to create. Whether it's an explainer video, product demo, or a brand story, the content and tone should align with your branding goals. 
 
 By investing time and effort into crafting a thoughtful and impactful video, you can meaningfully connect with potential customers, and create an effective brand identity that resonates with them.
+
+Some Examples for inspiration:
+
+### <em>Explainer Video</em>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/762452614?autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="IBM InsightsOnMeds _ Explainer Video"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+### <em>Product Video</em>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/765370228?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ArrayNetworks.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+### <em>3D Product Demo</em>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/802167812?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Celsure BOX 3D"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+### <em>App Demo</em>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/766800081?badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+
+### <em>Educational Video</em>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/772319170?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Programmatic Advertising Explainer Video"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ## <em>Crafting Engaging Storylines for Maximum Impact</em>
 

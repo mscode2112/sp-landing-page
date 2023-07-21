@@ -79,6 +79,9 @@ em {
     color: var(--orange);
 }
 
+a {
+    text-decoration: none;
+}
 button {
     width: 9.5rem;
     height: 45px;

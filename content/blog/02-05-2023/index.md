@@ -2,6 +2,7 @@
 path: "/200-25-04-2023"
 title: "Tips for Promoting Your Brand with Engaging Animated Videos"
 date: "02 May 2023"
+slug: "/tips-for-promoting-your-brand-with-engaging-animated-videos"
 featuredimage: 
     src: "./blog.jpg"
     alt: "Tips for Promoting Your Brand with Engaging Animated Videos"

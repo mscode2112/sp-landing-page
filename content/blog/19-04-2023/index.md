@@ -2,6 +2,7 @@
 path: "/197-19-04-2023"
 title: "Five Steps to Creating an Engaging Animated Explainer Video for Your Business"
 date: "19 April 2023"
+slug: "/Five-Steps-to-Creating-an-Engaging-Animated-Explainer-Video-for-Your-Business"
 featuredimage: 
     src: "./blog.jpg"
     alt: "Five Steps to Creating an Engaging Animated Explainer Video for Your Business"

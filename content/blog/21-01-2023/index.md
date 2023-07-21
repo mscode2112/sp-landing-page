@@ -2,9 +2,10 @@
 path: "/1944-21-01-2023"
 title: "Why animated explainer videos are effective for businesses"
 date: "21 January 2023"
+slug: "/Why-animated-explainer-videos-are-effective-for-businesses"
 featuredimage: 
     src: "./blog1.png"
-    alt: Why animated explainer videos are effective for businesses
+    alt: "Why animated explainer videos are effective for businesses"
 ---
 
 An explainer video is a brief animated video that explains a product, service, or concept clearly and concisely. Businesses often use these videos to present their products or services to potential customers, and they are highly effective for several reasons.

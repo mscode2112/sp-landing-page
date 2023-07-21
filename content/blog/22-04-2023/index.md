@@ -2,6 +2,7 @@
 path: "/198-22-04-2023"
 title: "Six Practical Tips for Using Video Animations to Boost Website Engagement"
 date: "22 April 2023"
+slug: "/Six-Practical-Tips-for-Using-Video-Animations-to-Boost-Website-Engagement"
 featuredimage: 
     src: "./blog.jpg"
     alt: "Six Practical Tips for Using Video Animations to Boost Website Engagement"

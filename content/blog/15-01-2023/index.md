@@ -2,6 +2,7 @@
 path: "/193-15-01-2023"
 title: "Why You Should Hire An Explainer Video Company"
 date: "15 January 2023"
+slug: "/Why-You-Should-Hire-An-Explainer-Video-Company"
 featuredimage: 
     src: "./blog2.png"
     alt: Why You Should Hire An Explainer Video Company

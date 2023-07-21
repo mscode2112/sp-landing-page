@@ -17,7 +17,7 @@ const About = ({
   titlePart2,
   sectionContent,
   aboutImage,
-  aboutVideo,
+  // aboutVideo,
 }) => {
   return (
     <div className={container}>
@@ -33,13 +33,13 @@ const About = ({
               }
             ></GatsbyImage>
           </div>
-          <video
+          {/* <video
             className={heroVideoMobile}
             loop
             autoPlay
             muted
             src={aboutVideo}
-          ></video>
+          ></video> */}
         </div>
         <div className={textSection}>
           <h2>

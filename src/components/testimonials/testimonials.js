@@ -1,7 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { useBetween } from "use-between";
-
 import {
   container,
   innerContainer,
@@ -106,6 +105,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
+
           <VideoModal />
         </div>
       </div>

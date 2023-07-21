@@ -14,13 +14,13 @@ import {
 
 export const AllBlogsQuery = graphql`
   query AllBlogPosts {
-    allMarkdownRemark(sort: {order: DESC, fields: frontmatter___path}){
+    allMarkdownRemark(sort: { order: DESC, fields: frontmatter___path }) {
       edges {
         node {
           frontmatter {
             date
             title
-            path
+            slug
             featuredimage {
               src {
                 childImageSharp {
@@ -39,7 +39,7 @@ const Blog = ({ data }) => {
   function getBlogs(data) {
     const blogArray = [];
     data.allMarkdownRemark.edges.map((edge) => {
-      const { title, date, path, featuredimage } = edge.node.frontmatter;
+      const { title, date, path, featuredimage, slug } = edge.node.frontmatter;
 
       blogArray.push(
         <Post
@@ -48,6 +48,7 @@ const Blog = ({ data }) => {
           date={date}
           image={featuredimage}
           path={path}
+          slug={slug}
         ></Post>
       );
       return blogArray;

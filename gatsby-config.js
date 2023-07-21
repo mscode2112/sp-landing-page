@@ -1,13 +1,17 @@
+const siteUrl = process.env.URL || `https://fallback.net`;
+
 module.exports = {
   siteMetadata: {
     title: `Animated Explainer Videos Production Australia | SocioPixels`,
     description: `Captivate your customers with Animated Explainer videos that are sure to increase brand awareness, engage customers and boost leads.`,
-    author: `SocioPixels`,
+    author: `@sociopixels`,
     siteUrl: `https://www.sociopixels.com.au`,
-    keywords: `animated video, video maker, animated video maker, video animation, video explainer, video production service, promotion videos`,
+    keywords: `animated video, explainer video, animated video production companies, video production, video animation, video explainer, video production service, promotion videos`,
     image: `src/images/Logo-2020-Small.jpg`,
   },
   plugins: [
+    "gatsby-source-filesystem-markdown-slug",
+    "gatsby-plugin-minify",
     "gatsby-plugin-postcss",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-anchor-links",
@@ -16,6 +20,15 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-transformer-json",
+    "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.sociopixels.com.au",
+        sitemap: "https://www.sociopixels.com.au/sitemap-index.xml",
+        policy: [{ userAgent: "*", allow: "/", disallow: "/thankYou" }],
+      },
+    },
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
@@ -59,7 +72,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `content`,
-        path: `${__dirname}/content/`,
+        path: `${__dirname}/content`,
       },
     },
     {
@@ -97,7 +110,7 @@ module.exports = {
               ordered: false,
               fromHeading: 1,
               toHeading: 6,
-              className: "table-of-contents",
+              //className: "table-of-contents",
             },
           },
           `gatsby-remark-autolink-headers`,

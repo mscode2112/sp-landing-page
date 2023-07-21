@@ -165,8 +165,8 @@
 @media (min-width: 320px) and (max-width: 736px) {
     .inner-hero {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
-        padding-bottom: 0;
+        /* grid-template-rows: repeat(2, 1fr); */
+        padding-bottom: 30%;
     }
     .left-hero {
         padding: 0 0 0 0;
@@ -182,7 +182,7 @@
         padding-top: 8%;
     }
     .right-hero {
-        display: block;
+        display: none;
         padding-left: 0;
     }
     .hero-video {
@@ -239,8 +239,8 @@
         padding: 2% 0 3% 0;
     }
     .right-hero {
-        display: block;
-        padding-left: 0;
+        display: none;
+        /* padding-left: 0; */
     }
     .hero-video {
         width:790px;
@@ -270,8 +270,8 @@
     }
 
     .right-hero {
-        display: block;
-        padding-left: 0;
+        display: none;
+        /* padding-left: 0; */
     }
 
     .hero-video {

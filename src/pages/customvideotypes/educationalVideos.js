@@ -5,7 +5,7 @@ import Header from "./header";
 import About from "./about";
 import Footer from "../../components/footer/footer";
 import HeroVideo from "../../images/customvideoimages/gifs/Educational.mp4";
-import AboutVideo from "../../images/customvideoimages/gifs/Educational_BG.mp4";
+// import AboutVideo from "../../images/customvideoimages/gifs/Educational_BG.mp4";
 import {
   educationalHeadlineContent,
   educationalSubHeadlineContent,
@@ -14,6 +14,7 @@ import {
   educationalContent,
 } from "../../resources/strings";
 import Samples from "./samples";
+import SEO from "../../components/seo/seo";
 
 export const data = graphql`
   query samplesQuery {
@@ -41,26 +42,32 @@ export const data = graphql`
 
 const EducationalVideos = ({ data }) => {
   return (
-    <div>
-      <Navbar />
-      <main>
-        <Header
-          headlineContent={educationalHeadlineContent}
-          subHeadlineContent={educationalSubHeadlineContent}
-          videoUrl={data.allEducationalVideosJson.edges[1].node.link}
-          headerVideo={HeroVideo}
-        />
-        <About
-          titlePart1={educationalTitlePart1}
-          titlePart2={educationalTitlePart2}
-          sectionContent={educationalContent}
-          aboutImage={data.allEducationalVideosJson.edges[0].node.aboutImage}
-          aboutVideo={AboutVideo}
-        />
-        <Samples data={data.allEducationalVideosJson} />
-        <Footer />
-      </main>
-    </div>
+    <>
+      <SEO
+        metaTitle="Educational Animated Videos"
+        metaDescription="This page showcases our educational animated videos"
+      />
+      <div>
+        <Navbar />
+        <main>
+          <Header
+            headlineContent={educationalHeadlineContent}
+            subHeadlineContent={educationalSubHeadlineContent}
+            videoUrl={data.allEducationalVideosJson.edges[1].node.link}
+            headerVideo={HeroVideo}
+          />
+          <About
+            titlePart1={educationalTitlePart1}
+            titlePart2={educationalTitlePart2}
+            sectionContent={educationalContent}
+            aboutImage={data.allEducationalVideosJson.edges[0].node.aboutImage}
+            // aboutVideo={AboutVideo}
+          />
+          <Samples data={data.allEducationalVideosJson} />
+          <Footer />
+        </main>
+      </div>
+    </>
   );
 };
 export default EducationalVideos;

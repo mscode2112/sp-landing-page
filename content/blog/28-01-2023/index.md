@@ -2,6 +2,7 @@
 path: "/195-28-01-2023"
 title: "Lights, Camera, Action: How to Create a Promotional Video that Generates Buzz"
 date: "28 January 2023"
+slug: "/How-to-Create-a-Promotional-Video-that-Generates-Buzz"
 featuredimage: 
     src: "./blog.png"
     alt: "Lights, Camera, Action: How to Create a Promotional Video that Generates Buzz"

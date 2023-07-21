@@ -88,6 +88,7 @@ const Portfolio2 = () => {
           <div className={videoSection}>{getPortfolio(data)}</div>
         </div>
       </div>
+
       <VideoModal />
     </div>
   );

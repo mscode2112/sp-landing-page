@@ -10,7 +10,7 @@ exports.createPages = ({ actions, graphql }) => {
         edges {
           node {
             frontmatter {
-              path
+              slug
             }
           }
         }
@@ -23,9 +23,12 @@ exports.createPages = ({ actions, graphql }) => {
 
     res.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
-        path: node.frontmatter.path,
+        path: node.frontmatter.slug,
         image: node.frontmatter.image,
         component: postTemplate,
+        context: {
+          slug: node.frontmatter.slug,
+        },
       });
     });
   });

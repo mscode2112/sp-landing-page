@@ -24,12 +24,11 @@ import {
 import {
   headlineContent,
   headlineContentMobile,
-  subHeadlineContent,
   subHeadlineContentMobile,
 } from "../../resources/strings.js";
 import HeroVideo from "../../images/videos/Hero3.mp4";
 import WatchMeVideo from "../../images/videos/WatchMe.mp4";
-import ShowreelVideo from "../../images/videos/SocioPixels Showreel 2022.mp4";
+// import ShowreelVideo from "../../images/videos/SocioPixels Showreel 2022.mp4";
 import VideoModal from "../videoModal/videoModal";
 
 export const useShareableState = () => {
@@ -54,7 +53,7 @@ const Hero = () => {
         <div className={leftHero}>
           <div className={textSection}>
             <h1 className={headline}>{headlineContent}</h1>
-            <h1 className={headlineMobile}>{headlineContentMobile}</h1>
+            <h2 className={headlineMobile}>{headlineContentMobile}</h2>
             <p className={subheadline}>{subHeadlineContentMobile}</p>
             <p className={subheadlineMobile}>{subHeadlineContentMobile}</p>
           </div>
@@ -96,7 +95,7 @@ const Hero = () => {
               muted
               src={HeroVideo}
             ></video>
-            <video
+            {/* <video
               className={heroVideoMobile}
               loop
               autoPlay
@@ -106,7 +105,7 @@ const Hero = () => {
                 setModalData("https://player.vimeo.com/video/763654563");
                 setModalOpen(true);
               }}
-            ></video>
+            ></video> */}
           </div>
         </div>
         <VideoModal />
@@ -114,4 +113,5 @@ const Hero = () => {
     </div>
   );
 };
+
 export default Hero;

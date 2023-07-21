@@ -1,21 +1,15 @@
-import * as React from 'react'
-import Helmet from 'react-helmet'
-import Layout from '../components/layout/layout'
-import useSiteMetadata from '../hooks/use-siteMetadata'
+import * as React from "react";
+import Layout from "../components/layout/layout";
+import SEO from "../components/seo/seo";
+import useSiteMetadata from "../hooks/use-siteMetadata";
 
 const IndexPage = () => {
-  const {title, description} = useSiteMetadata();
   return (
     <>
-      <Helmet>
-        <html lang='en' />
-        <title>{title}</title>
-        <meta name='description' content={description} />
-      </Helmet>
-      <Layout pageTitle="Home Page">
-      </Layout>
+      <SEO metaDescription="This is a homepage" />
+      <Layout pageTitle="Home Page"></Layout>
     </>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;

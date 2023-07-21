@@ -2,6 +2,7 @@
 path: "/196-15-03-2023"
 title: "Is it true that video animation can improve traffic to websites?"
 date: "15 March 2023"
+slug: "/Is-it-true-that-video-animation-can-improve-traffic-to-websites"
 featuredimage: 
     src: "./blog.jpg"
     alt: "Is it true that video animation can improve traffic to websites?"

@@ -3,8 +3,8 @@ import { Link, navigate } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
 import { post, postTitle, postDate } from "./post.module.css";
 
-const Post = ({ title, date, image, path }) => (
-  <div className={post} onClick={() => navigate(path)}>
+const Post = ({ title, date, image, path, slug }) => (
+  <div className={post} onClick={() => navigate(slug)}>
     {image && (
       <GatsbyImage
         image={image.src.childImageSharp.gatsbyImageData}
@@ -13,7 +13,7 @@ const Post = ({ title, date, image, path }) => (
     )}
     <h3 className={postTitle}>{title}</h3>
     <p className={postDate}>{date}</p>
-    <Link to={path}>Read more</Link>
+    <Link to={slug}>Read more</Link>
   </div>
 );
 

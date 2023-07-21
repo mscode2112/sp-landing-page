@@ -13,12 +13,11 @@ import {
 } from "./blogTemplate.module.css";
 
 export const postQuery = graphql`
-  query BlogPost($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query BlogPost($slug: String) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       frontmatter {
         date
         title
-        path
         featuredimage {
           src {
             childImageSharp {
@@ -34,12 +33,14 @@ export const postQuery = graphql`
 `;
 
 export default function BlogTemplate({ data }) {
-  let title, date, featuredimage;
+  let title, date, featuredimage, slug;
   const post = data.markdownRemark;
+  console.log("post: ", post);
   if (post) {
     title = post.frontmatter.title;
     date = post.frontmatter.date;
     featuredimage = post.frontmatter.featuredimage;
+    slug = post.frontmatter.slug;
   }
 
   return (

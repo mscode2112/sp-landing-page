@@ -2,6 +2,7 @@
 path: "/192-14-01-2023"
 title: "7 Reasons You Need Explainer Videos to Tell Your Brand Story"
 date: "14 January 2023"
+slug: "/Seven-Reasons-You-Need-Explainer-Videos-to-Tell-Your-Brand-Story"
 featuredimage: 
     src: "./blog4.png"
     alt: 7 Reasons You Need Explainer Videos to Tell Your Brand Story
@@ -15,22 +16,22 @@ And among the different video formats, you can produce, explainer videos stand o
 
 So, why explainer videos?
 
-1. They are concise and give <em>the most information in the shortest amount of time</em>. Your customers wouldn't get a chance to bail early, and the message can hit home with them.
+1. They are concise and give the most information in the shortest amount of time. Your customers wouldn't get a chance to bail early, and the message can hit home with them.
 
 
-2. They capture the <em>solution and the real problem</em> in the first place. As the video progresses linearly with time, you can grab a chain of events to establish the connection between the problem and the solution. 
+2. They capture the solution and the real problem in the first place. As the video progresses linearly with time, you can grab a chain of events to establish the connection between the problem and the solution. 
 
-3. Explainer videos allow more <em>room for creativity</em>. You can play with innovative approaches to animation, build jokes, and create a holistic experience for the audience. A video that surprises the audience at first and then delights them, making them reflect on the thought behind it, even after watching, is the most-effective way to go about its creation.
+3. Explainer videos allow more room for creativity. You can play with innovative approaches to animation, build jokes, and create a holistic experience for the audience. A video that surprises the audience at first and then delights them, making them reflect on the thought behind it, even after watching, is the most-effective way to go about its creation.
    
-4. Explainer videos are worth the time and investment. You can <em>leverage them across several channels as part of your branding strategy</em> – YouTube, embedded on your website's landing page, or even incorporated as any proposal presentation. Another perk is it being small in size and easily transferrable. Free video hosting sites such as YouTube and Vimeo have useful tools that enable you to upload your videos and use keywords to draw their interest.
+4. Explainer videos are worth the time and investment. You can leverage them across several channels as part of your branding strategy</ – YouTube, embedded on your website's landing page, or even incorporated as any proposal presentation. Another perk is it being small in size and easily transferrable. Free video hosting sites such as YouTube and Vimeo have useful tools that enable you to upload your videos and use keywords to draw their interest.
 
-5. Being an <em>easy-to-learn medium</em>, new branding and marketing team members can learn from your explainer videos. You don't need to spend years learning or perfecting the skill. That's probably why 65 percent of marketers plan to increase their video marketing budgets.
+5. Being an easy-to-learn medium, new branding and marketing team members can learn from your explainer videos. You don't need to spend years learning or perfecting the skill. That's probably why 65 percent of marketers plan to increase their video marketing budgets.
 
-6. They are suitable for the new customer base and the old audience, as explainer videos can serve as a tutorial so that they can understand the concepts easily. You can <em>let your brand's personality shine through visuals and narration</em> as part of the script while you showcase the benefits of the product or service in question.
+6. They are suitable for the new customer base and the old audience, as explainer videos can serve as a tutorial so that they can understand the concepts easily. You can let your brand's personality shine through visuals and narration as part of the script while you showcase the benefits of the product or service in question.
 
-7. Explainer videos have emerged as not only an <em>engaging but an intelligent medium</em> because they can allow you to gauge your potential customers of the specific product or service, basis the views and metrics.
+7. Explainer videos have emerged as not only an engaging but an intelligent medium because they can allow you to gauge your potential customers of the specific product or service, basis the views and metrics.
 
-<em>Some more nuggets for thought</em>
+Some more nuggets for thought
 
 Your explainer video can be used as a winning asset for your strategy, primarily if you ensure that one of the missions of the video is to answer the audience's questions before they even ask them.
 

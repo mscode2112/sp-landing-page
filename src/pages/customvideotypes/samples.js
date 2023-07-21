@@ -5,12 +5,10 @@ import "@reach/dialog/styles.css";
 import {
   container,
   innerContainer,
-  wrapper,
   videoSection,
   videoImage,
   playButton,
 } from "../../components/portfolio/portfolio.module.css";
-import { portfolioContent } from "../../resources/strings.js";
 import styled from "styled-components";
 import VideoModal from "../../components/videoModal/videoModal";
 
@@ -64,8 +62,8 @@ const Samples = ({ data }) => {
           );
         }
         return portfolioArray;
-      })
-    };
+      });
+    }
     return portfolioArray;
   }
   return (
