@@ -35,7 +35,6 @@ export const postQuery = graphql`
 export default function BlogTemplate({ data }) {
   let title, date, featuredimage, slug;
   const post = data.markdownRemark;
-  console.log("post: ", post);
   if (post) {
     title = post.frontmatter.title;
     date = post.frontmatter.date;
