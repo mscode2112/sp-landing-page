@@ -11,7 +11,6 @@ module.exports = {
   },
   plugins: [
     "gatsby-source-filesystem-markdown-slug",
-    "gatsby-plugin-minify",
     "gatsby-plugin-postcss",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-anchor-links",
@@ -20,7 +19,6 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-transformer-json",
-    // "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-sitemap",
       options: {
